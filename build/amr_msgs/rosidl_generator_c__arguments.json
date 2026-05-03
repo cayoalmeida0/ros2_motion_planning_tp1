@@ -1,0 +1,40 @@
+{
+  "package_name": "amr_msgs",
+  "output_dir": "/home/cayo-sousa/ws_ld90_sim/build/amr_msgs/rosidl_generator_c/amr_msgs",
+  "template_dir": "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource",
+  "idl_tuples": [
+    "/home/cayo-sousa/ws_ld90_sim/build/amr_msgs/rosidl_adapter/amr_msgs:msg/Location.idl",
+    "/home/cayo-sousa/ws_ld90_sim/build/amr_msgs/rosidl_adapter/amr_msgs:msg/Status.idl"
+  ],
+  "ros_interface_files": [
+    "/home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_msgs/msg/Location.msg",
+    "/home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_msgs/msg/Status.msg"
+  ],
+  "target_dependencies": [
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/rosidl_generator_c/rosidl_generator_c",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../../../lib/python3.12/site-packages/rosidl_generator_c/__init__.py",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/action__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/action__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/empty__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/full__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__description.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__functions.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__functions.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__struct.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/idl__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__functions.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__functions.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__struct.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/msg__type_support.h.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.c.em",
+    "/opt/ros/jazzy/share/rosidl_generator_c/cmake/../resource/srv__type_support.h.em",
+    "/home/cayo-sousa/ws_ld90_sim/build/amr_msgs/rosidl_adapter/amr_msgs/msg/Location.idl",
+    "/home/cayo-sousa/ws_ld90_sim/build/amr_msgs/rosidl_adapter/amr_msgs/msg/Status.idl"
+  ],
+  "type_description_tuples": [
+    "msg/Location.idl:/home/cayo-sousa/ws_ld90_sim/build/amr_msgs/rosidl_generator_type_description/amr_msgs/msg/Location.json",
+    "msg/Status.idl:/home/cayo-sousa/ws_ld90_sim/build/amr_msgs/rosidl_generator_type_description/amr_msgs/msg/Status.json"
+  ]
+}

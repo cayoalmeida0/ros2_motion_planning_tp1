@@ -1,0 +1,1 @@
+/home/cayo-sousa/ws_ld90_sim/build/amr_msgs/rosidl_generator_c/amr_msgs/msg/detail/status__struct.h

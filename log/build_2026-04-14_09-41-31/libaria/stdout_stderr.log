@@ -1,0 +1,500 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done (0.4s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/cayo-sousa/ws_ld90_sim/build/libaria
+[  1%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArActionDeceleratingLimiter.cpp.o[0m
+[  1%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArActionBumpers.cpp.o[0m
+[  2%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArActionDriveDistance.cpp.o[0m
+[  2%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArActionConstantVelocity.cpp.o[0m
+[  2%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArActionDesired.cpp.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArActionAvoidFront.cpp.o[0m
+[  3%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArActionAvoidSide.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArActionColorFollow.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArAction.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArActionGoto.cpp.o[0m
+[  4%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArActionGotoStraight.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArActionGroup.cpp.o[0m
+[  5%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArActionGroups.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArActionInput.cpp.o[0m
+[  6%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArActionIRs.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArActionJoydrive.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArActionKeydrive.cpp.o[0m
+[  7%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArActionLimiterBackwards.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArActionLimiterForwards.cpp.o[0m
+[  8%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArActionLimiterRot.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArActionLimiterTableSensor.cpp.o[0m
+[  9%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArActionMovementParameters.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArActionMovementParametersDebugging.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArActionRatioInput.cpp.o[0m
+[ 10%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArActionRobotJoydrive.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArActionStallRecover.cpp.o[0m
+[ 11%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArActionStop.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArActionTriangleDriveTo.cpp.o[0m
+[ 12%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArActionTurn.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArACTS.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArAMPTU.cpp.o[0m
+[ 13%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArAnalogGyro.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArArg.cpp.o[0m
+[ 14%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArArgumentBuilder.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArArgumentParser.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArASyncTask.cpp.o[0m
+[ 15%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArBatteryConnector.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArBasePacket.cpp.o[0m
+[ 16%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArBatteryMTX.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArBumpers.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArCameraCommands.cpp.o[0m
+[ 17%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArCondition_LIN.cpp.o[0m
+[ 18%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArCameraCollection.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArConfig.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArConfigArg.cpp.o[0m
+[ 19%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArConfigGroup.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArDataLogger.cpp.o[0m
+[ 20%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArDeviceConnection.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArDPPTU.cpp.o[0m
+[ 21%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArFileDeviceConnection.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArFileParser.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArForbiddenRangeDevice.cpp.o[0m
+[ 22%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArFunctorASyncTask.cpp.o[0m
+[ 23%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArGPS.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArGPSCoords.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArGPSConnector.cpp.o[0m
+[ 24%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArGripper.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArInterpolation.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArIrrfDevice.cpp.o[0m
+[ 25%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArIRs.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArJoyHandler.cpp.o[0m
+[ 26%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArKeyHandler.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArLaser.cpp.o[0m
+[ 27%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArLaserConnector.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArLaserFilter.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArLaserLogger.cpp.o[0m
+[ 28%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArLaserReflectorDevice.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArLCDConnector.cpp.o[0m
+[ 29%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArLCDMTX.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArLineFinder.cpp.o[0m
+[ 30%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArLMS1XX.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArLMS2xx.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArLMS2xxPacket.cpp.o[0m
+[ 31%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArLMS2xxPacketReceiver.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArLog.cpp.o[0m
+[ 32%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArLogFileConnection.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArMap.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArMapComponents.cpp.o[0m
+[ 33%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArMapInterface.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArMapObject.cpp.o[0m
+[ 34%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArMapUtils.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArMD5Calculator.cpp.o[0m
+[ 35%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArMode.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArModes.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArModule.cpp.o[0m
+[ 36%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArModuleLoader.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArMutex.cpp.o[0m
+[ 37%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArMutex_LIN.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArNetServer.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArNMEAParser.cpp.o[0m
+[ 38%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArP2Arm.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArNovatelGPS.cpp.o[0m
+[ 39%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArPriorityResolver.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArPTZ.cpp.o[0m
+[ 40%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArPTZConnector.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArRangeBuffer.cpp.o[0m
+[ 41%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArRangeDevice.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArRangeDeviceThreaded.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArRatioInputKeydrive.cpp.o[0m
+[ 42%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArRatioInputJoydrive.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArRatioInputRobotJoydrive.cpp.o[0m
+[ 43%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArRecurrentTask.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArRobot.cpp.o[0m
+[ 44%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArRobotBatteryPacketReader.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArRobotConfig.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArRobotConfigPacketReader.cpp.o[0m
+[ 45%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArRobotConnector.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArRobotJoyHandler.cpp.o[0m
+[ 46%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArRobotPacket.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArRobotPacketReceiver.cpp.o[0m
+[ 47%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArRobotPacketReaderThread.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArRobotPacketSender.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArRobotParams.cpp.o[0m
+[ 48%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArRobotTypes.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArRVisionPTZ.cpp.o[0m
+[ 49%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArS3Series.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArSZSeries.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArSick.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArSimpleConnector.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArSimulatedLaser.cpp.o[0m
+[ 51%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArSocket.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArSonarConnector.cpp.o[0m
+[ 52%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArSonarDevice.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArSonarMTX.cpp.o[0m
+[ 53%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArSensorReading.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArSonyPTZ.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArSoundsQueue.cpp.o[0m
+[ 54%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArSoundPlayer.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArStringInfoGroup.cpp.o[0m
+[ 55%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArSyncLoop.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArSyncTask.cpp.o[0m
+[ 56%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArSystemStatus.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArSonarAutoDisabler.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArSpeech.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArTCM2.cpp.o[0m
+[ 57%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArTCMCompassRobot.cpp.o[0m
+[ 58%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArTCMCompassDirect.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArTcpConnection.cpp.o[0m
+[ 59%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArThread.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArThread_LIN.cpp.o[0m
+[ 60%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArTransform.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArTrimbleGPS.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArUrg.cpp.o[0m
+[ 61%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArUrg_2_0.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArVCC4.cpp.o[0m
+[ 62%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/Aria.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ariaUtil.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/md5.cpp.o[0m
+[ 63%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArSocket_LIN.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArJoyHandler_LIN.cpp.o[0m
+[ 64%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArSerialConnection_LIN.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArSignalHandler_LIN.cpp.o[0m
+[ 65%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArVersalogicIO.cpp.o[0m
+[ 66%] [32mBuilding CXX object CMakeFiles/Aria.dir/src/ArMTXIO.cpp.o[0m
+[ 66%] [32m[1mLinking CXX shared library libAria.so[0m
+[ 66%] Built target Aria
+[ 66%] [32mBuilding CXX object CMakeFiles/actionAverageTest.dir/tests/actionAverageTest.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/angleTest.dir/tests/angleTest.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArCentralForwarder.cpp.o[0m
+[ 67%] [32mBuilding CXX object CMakeFiles/threadExample.dir/examples/threadExample.cpp.o[0m
+[ 68%] [32mBuilding CXX object CMakeFiles/angleFixTest.dir/tests/angleFixTest.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/robotListTest.dir/tests/robotListTest.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/angleBetweenTest.dir/tests/angleBetweenTest.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/actionArgumentTest.dir/tests/actionArgumentTest.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/lineTest.dir/tests/lineTest.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/mathTests.dir/tests/mathTests.cpp.o[0m
+[ 69%] [32mBuilding CXX object CMakeFiles/absoluteHeadingActionTest.dir/tests/absoluteHeadingActionTest.cpp.o[0m
+[ 70%] [32mBuilding CXX object CMakeFiles/functorExample.dir/examples/functorExample.cpp.o[0m
+[ 70%] [32m[1mLinking CXX executable mathTests[0m
+[ 70%] Built target mathTests
+[ 70%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArCentralManager.cpp.o[0m
+[ 71%] [32m[1mLinking CXX executable actionAverageTest[0m
+[ 71%] [32m[1mLinking CXX executable angleFixTest[0m
+[ 71%] Built target actionAverageTest
+[ 72%] [32m[1mLinking CXX executable absoluteHeadingActionTest[0m
+[ 72%] [32m[1mLinking CXX executable functorExample[0m
+[ 73%] [32mBuilding CXX object CMakeFiles/simpleConnect.dir/examples/simpleConnect.cpp.o[0m
+[ 74%] [32m[1mLinking CXX executable actionArgumentTest[0m
+[ 75%] [32m[1mLinking CXX executable threadExample[0m
+[ 75%] Built target angleFixTest
+[ 75%] [32m[1mLinking CXX executable angleBetweenTest[0m
+[ 75%] [32m[1mLinking CXX executable angleTest[0m
+[ 76%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArClientArgUtils.cpp.o[0m
+[ 76%] Built target angleBetweenTest
+[ 76%] Built target functorExample
+[ 77%] [32m[1mLinking CXX executable lineTest[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArClientBase.cpp.o[0m
+[ 77%] [32mBuilding CXX object CMakeFiles/simpleMotionCommands.dir/examples/simpleMotionCommands.cpp.o[0m
+[ 77%] [32m[1mLinking CXX executable robotListTest[0m
+[ 77%] Built target actionArgumentTest
+[ 77%] Built target absoluteHeadingActionTest
+[ 78%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArClientData.cpp.o[0m
+[ 78%] Built target angleTest
+[ 78%] [32mBuilding CXX object CMakeFiles/teleopActionsExample.dir/examples/teleopActionsExample.cpp.o[0m
+[ 78%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArClientFileUtils.cpp.o[0m
+[ 78%] Built target threadExample
+[ 78%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArClientHandlerConfig.cpp.o[0m
+[ 78%] Built target robotListTest
+[ 79%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArClientHandlerRobotUpdate.cpp.o[0m
+[ 79%] Built target lineTest
+[ 79%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArClientRatioDrive.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArClientSimpleConnector.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/libaria_safe_test_runner.dir/tests/libariaSafeTestRunner.cpp.o[0m
+[ 80%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArClientSwitchManager.cpp.o[0m
+[ 81%] [32m[1mLinking CXX executable simpleMotionCommands[0m
+[ 82%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArHybridForwarderVideo.cpp.o[0m
+[ 82%] [32m[1mLinking CXX executable simpleConnect[0m
+[ 83%] [32m[1mLinking CXX executable teleopActionsExample[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArMapChanger.cpp.o[0m
+[ 83%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArNetPacket.cpp.o[0m
+[ 83%] Built target simpleMotionCommands
+[ 84%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArNetPacketReceiverTcp.cpp.o[0m
+[ 84%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArNetPacketReceiverUdp.cpp.o[0m
+[ 84%] Built target simpleConnect
+[ 85%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArNetPacketSenderTcp.cpp.o[0m
+[ 85%] Built target teleopActionsExample
+[ 85%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArServerBase.cpp.o[0m
+[ 85%] [32mBuilding CXX object CMakeFiles/libaria_hardware_test_runner.dir/tests/libariaHardwareTestRunner.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArServerClient.cpp.o[0m
+[ 86%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArServerData.cpp.o[0m
+[ 87%] [32m[1mLinking CXX executable libaria_safe_test_runner[0m
+[ 87%] Built target libaria_safe_test_runner
+[ 87%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArServerFileUtils.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArServerHandlerCameraCollection.cpp.o[0m
+[ 88%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArServerHandlerCamera.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArServerHandlerCommands.cpp.o[0m
+[ 89%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArServerHandlerCommMonitor.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArServerHandlerConfig.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArServerHandlerMap.cpp.o[0m
+[ 90%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArServerHandlerMapping.cpp.o[0m
+[ 91%] [32m[1mLinking CXX executable libaria_hardware_test_runner[0m
+[ 92%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArServerHandlerPopup.cpp.o[0m
+[ 92%] Built target libaria_hardware_test_runner
+[ 92%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArServerInfoDrawings.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArServerInfoRobot.cpp.o[0m
+[ 93%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArServerInfoSensor.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArServerInfoStrings.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArServerMode.cpp.o[0m
+[ 94%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArServerModeDrive.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArServerModeIdle.cpp.o[0m
+[ 95%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArServerModeRatioDrive.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArServerModeStop.cpp.o[0m
+[ 96%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArServerModeWander.cpp.o[0m
+[ 97%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArServerSimpleCommands.cpp.o[0m
+[ 97%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArServerSimpleOpener.cpp.o[0m
+[ 97%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArServerUserInfo.cpp.o[0m
+[ 98%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/md5.cpp.o[0m
+[ 98%] [32mBuilding CXX object CMakeFiles/ArNetworking.dir/ArNetworking/src/ArTempDirectoryHelper.cpp.o[0m
+[ 99%] [32m[1mLinking CXX shared library libArNetworking.so[0m
+[ 99%] Built target ArNetworking
+[100%] [32mBuilding CXX object CMakeFiles/omron_robot_cli.dir/tools/omron_robot_cli.cpp.o[0m
+[100%] [32m[1mLinking CXX executable omron_robot_cli[0m
+[100%] Built target omron_robot_cli
+-- Install configuration: ""
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/lib/libAria.so
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/lib/libArNetworking.so
+-- Set non-toolchain portion of runtime path of "/home/cayo-sousa/ws_ld90_sim/install/libaria/lib/libArNetworking.so" to ""
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/bin/omron_robot_cli
+-- Set non-toolchain portion of runtime path of "/home/cayo-sousa/ws_ld90_sim/install/libaria/bin/omron_robot_cli" to ""
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArMD5Calculator.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArRatioInputKeydrive.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArActionDriveDistance.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArNetServer.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArInterpolation.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArTCMCompassRobot.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArFileDeviceConnection.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArFunctor.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArGPSConnector.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArSZSeries.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArSimulatedLaser.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArActionLimiterTableSensor.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArSocket.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArPTZConnector.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArP2Arm.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArArg.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArIRs.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArDPPTU.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArBasePacket.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArActionJoydrive.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArIrrfDevice.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArConfigArg.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/Aria.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArKeyHandler.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArAction.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArNMEAParser.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArActionLimiterBackwards.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArConfig.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArThread.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArActionRobotJoydrive.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/wrapper_ExtraClasses.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ariaInternal.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArActionGroups.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArActionGotoStraight.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArZippable.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArRobot.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArLineFinder.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArLaserReflectorDevice.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArCameraCommands.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArRobotConnector.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArMTXIO.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArRobotPacketSender.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArActionGroup.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArTaskState.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArACTS.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArSpeech.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArLMS2xxPacketReceiver.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArDataLogger.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArLogFileConnection.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArModule.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArRangeDeviceThreaded.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArTCMCompassDirect.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArBatteryConnector.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArLaserConnector.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArActionColorFollow.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArVCC4.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArLog.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArActionMovementParametersDebugging.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArUrg_2_0.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArSerialConnection.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArDrawingData.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArTcpConnection.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArRangeDevice.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArActionLimiterForwards.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArModuleLoader.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArS3Series.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArActionKeydrive.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArActionMovementParameters.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArActionGoto.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArLMS2xxPacket.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArMode.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArActionTriangleDriveTo.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArRobotConfigPacketReader.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ariaOSDef.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArRangeBuffer.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArGPSCoords.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArPixelDevice.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArSick.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArTransform.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArArgumentParser.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArSyncTask.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArUrg.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArArgumentBuilder.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArRobotJoyHandler.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArSonarConnector.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArExitErrorSource.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArRobotPacket.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArAMPTU.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArGPS.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArRatioInputJoydrive.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArFunctorASyncTask.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ariaUtil.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArActionStallRecover.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArActionInput.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArRobotTypes.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArLMS2xx.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ariaTypedefs.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArBatteryMTX.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArActionTurn.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArRingQueue.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArActionConstantVelocity.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArSoundPlayer.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArASyncTask.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArMap.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArLCDMTX.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArVersalogicIO.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArSonarDevice.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArCommands.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArRobotPacketReceiver.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArGripper.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/md5.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArActionRatioInput.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArSonarAutoDisabler.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArHasFileName.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/wrapper_Functors.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArActionLimiterRot.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArActionAvoidFront.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArFileParser.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArLaser.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArSonarMTX.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArRecurrentTask.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArRobotBatteryPacketReader.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArSensorReading.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArAnalogGyro.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArStringInfoGroup.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArActionIRs.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArRVisionPTZ.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArRatioInputRobotJoydrive.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArCameraCollection.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArSignalHandler.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArActionDeceleratingLimiter.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArMutex.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArLaserFilter.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArRobotPacketReaderThread.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArCondition.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArTrimbleGPS.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArResolver.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArModes.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArSystemStatus.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArJoyHandler.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArSoundsQueue.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArBumpers.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArConfigGroup.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArRobotParams.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArActionStop.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArMapObject.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArSimpleConnector.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArNovatelGPS.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArActionBumpers.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArSyncLoop.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArPriorityResolver.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArActionAvoidSide.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArMapInterface.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArMapComponents.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArSonyPTZ.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArLaserLogger.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArDeviceConnection.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArForbiddenRangeDevice.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArTCM2.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArRobotConfig.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArPTZ.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArLCDConnector.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArExport.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArActionDesired.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArLMS1XX.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/Aria/ArMapUtils.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArCentralManager.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArServerCommands.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArServerInfoSensor.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArServerInfoStrings.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArClientHandlerRobotUpdate.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArClientSimpleConnector.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArServerInfoRobot.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArServerModeStop.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArMapChanger.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArNetworking.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArNetPacket.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArServerMode.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArClientHandlerConfig.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArServerHandlerCommands.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArServerFileUtils.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArServerModeRatioDrive.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArServerInfoDrawings.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArHybridForwarderVideo.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArServerClientData.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArServerClient.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArServerModeJogPosition.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArServerHandlerCameraCollection.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArServerUserInfo.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArServerSimpleOpener.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArClientCommands.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArClientRatioDrive.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArTempDirectoryHelper.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArServerHandlerMapping.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArServerModeIdle.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArServerSimpleCommands.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArClientData.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/md5.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArServerHandlerCamera.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArServerHandlerPopup.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArServerClientIdentifier.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArClientFileUtils.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArClientBase.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArNetPacketReceiverTcp.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArServerHandlerMap.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArServerModeWander.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArClientArgUtils.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArServerBase.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArServerHandlerConfig.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArServerModeDrive.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArNetPacketSenderTcp.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArCentralForwarder.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArServerData.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArServerHandlerCommMonitor.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArClientSwitchManager.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/include/ArNetworking/ArNetPacketReceiverUdp.h
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/lib/cmake/libaria/libariaTargets.cmake
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/lib/cmake/libaria/libariaTargets-noconfig.cmake
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/lib/cmake/libaria/libariaConfig.cmake
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/lib/cmake/libaria/libariaConfigVersion.cmake
+-- Installing: /home/cayo-sousa/ws_ld90_sim/install/libaria/lib/cmake/libaria/package.xml

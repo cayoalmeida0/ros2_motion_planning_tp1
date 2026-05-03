@@ -1,0 +1,23 @@
+[0.009s] Invoking command in '/home/cayo-sousa/ws_ld90_sim/build/amr_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cayo-sousa/ws_ld90_sim/install/ld90_gz:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cayo-sousa/ws_ld90_sim/build/amr_teleop -- -j12 -l12
+[0.052s] Invoked command in '/home/cayo-sousa/ws_ld90_sim/build/amr_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cayo-sousa/ws_ld90_sim/install/ld90_gz:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cayo-sousa/ws_ld90_sim/build/amr_teleop -- -j12 -l12
+[0.053s] Invoking command in '/home/cayo-sousa/ws_ld90_sim/build/amr_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cayo-sousa/ws_ld90_sim/install/ld90_gz:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cayo-sousa/ws_ld90_sim/build/amr_teleop
+[0.061s] -- Install configuration: ""
+[0.061s] -- Execute custom install script
+[0.061s] -- Up-to-date symlink: /home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/amr_teleop/launch/amr_joyop.launch.py
+[0.062s] -- Up-to-date symlink: /home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/amr_teleop/config/teleop.yaml
+[0.062s] -- Up-to-date symlink: /home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/ament_index/resource_index/package_run_dependencies/amr_teleop
+[0.062s] -- Up-to-date symlink: /home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/ament_index/resource_index/parent_prefix_path/amr_teleop
+[0.062s] -- Up-to-date symlink: /home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/amr_teleop/environment/ament_prefix_path.sh
+[0.063s] -- Up-to-date symlink: /home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/amr_teleop/environment/ament_prefix_path.dsv
+[0.063s] -- Up-to-date symlink: /home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/amr_teleop/environment/path.sh
+[0.063s] -- Up-to-date symlink: /home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/amr_teleop/environment/path.dsv
+[0.063s] -- Up-to-date symlink: /home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/amr_teleop/local_setup.bash
+[0.063s] -- Up-to-date symlink: /home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/amr_teleop/local_setup.sh
+[0.063s] -- Up-to-date symlink: /home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/amr_teleop/local_setup.zsh
+[0.064s] -- Up-to-date symlink: /home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/amr_teleop/local_setup.dsv
+[0.064s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/amr_teleop/package.dsv
+[0.075s] -- Up-to-date symlink: /home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/ament_index/resource_index/packages/amr_teleop
+[0.075s] -- Up-to-date symlink: /home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/amr_teleop/cmake/amr_teleopConfig.cmake
+[0.075s] -- Up-to-date symlink: /home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/amr_teleop/cmake/amr_teleopConfig-version.cmake
+[0.075s] -- Up-to-date symlink: /home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/amr_teleop/package.xml
+[0.076s] Invoked command in '/home/cayo-sousa/ws_ld90_sim/build/amr_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/cayo-sousa/ws_ld90_sim/install/ld90_gz:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cayo-sousa/ws_ld90_sim/build/amr_teleop

@@ -1,0 +1,1 @@
+/home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_nav2/launch/slam.launch.py

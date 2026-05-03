@@ -1,0 +1,50 @@
+-- The C compiler identification is GNU 13.3.0
+-- The CXX compiler identification is GNU 13.3.0
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: /usr/bin/cc - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: /usr/bin/c++ - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found ament_cmake: 2.5.5 (/opt/ros/jazzy/share/ament_cmake/cmake)
+-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+-- Override CMake install command with custom implementation using symlinks instead of copying resources
+-- Configuring done (0.5s)
+-- Generating done (0.0s)
+-- Build files have been written to: /home/cayo-sousa/ws_ld90_sim/build/amr_ros
+-- Install configuration: ""
+-- Execute custom install script
+-- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/config/ld250_parameters.yaml
+-- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/config/ld90_parameters.yaml
+-- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/config/parameters.yaml
+-- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/launch/amr_core.launch.py
+-- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/launch/amr_rviz.launch.py
+-- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/launch/ld250.launch.py
+-- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/launch/ld250_rviz.launch.py
+-- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/launch/ld90.launch.py
+-- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/launch/ld90_rviz.launch.py
+-- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/map/crlab.map
+-- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/map/data.map
+-- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/rviz/amr_rviz.rviz
+-- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/rviz/rviz_amr_platform.rviz
+-- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/rviz/rviz_ld250.rviz
+-- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/rviz/rviz_ld90.rviz
+-- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/ament_index/resource_index/package_run_dependencies/amr_ros
+-- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/ament_index/resource_index/parent_prefix_path/amr_ros
+-- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/environment/ament_prefix_path.sh
+-- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/environment/ament_prefix_path.dsv
+-- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/environment/path.sh
+-- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/environment/path.dsv
+-- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/local_setup.bash
+-- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/local_setup.sh
+-- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/local_setup.zsh
+-- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/local_setup.dsv
+-- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/package.dsv
+-- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/ament_index/resource_index/packages/amr_ros
+-- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/cmake/amr_rosConfig.cmake
+-- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/cmake/amr_rosConfig-version.cmake
+-- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/package.xml

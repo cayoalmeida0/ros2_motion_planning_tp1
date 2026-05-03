@@ -1,0 +1,1 @@
+/home/cayo-sousa/ws_ld90_sim/build/amr_msgs/ament_cmake_environment_hooks/local_setup.bash

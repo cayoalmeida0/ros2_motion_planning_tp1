@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/simpleConnect.dir/examples/simpleConnect.cpp.o -o simpleConnect  -Wl,-rpath,/home/cayo-sousa/ws_ld90_sim/build/libaria libAria.so 

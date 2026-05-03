@@ -1,0 +1,1 @@
+/home/cayo-sousa/ws_ld90_sim/build/amr_msgs/rosidl_typesupport_introspection_c/amr_msgs/msg/detail/location__rosidl_typesupport_introspection_c.h

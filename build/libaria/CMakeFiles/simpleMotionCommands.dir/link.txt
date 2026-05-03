@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/simpleMotionCommands.dir/examples/simpleMotionCommands.cpp.o -o simpleMotionCommands  -Wl,-rpath,/home/cayo-sousa/ws_ld90_sim/build/libaria libAria.so 

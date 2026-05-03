@@ -1,0 +1,1 @@
+/home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_ros/launch/amr_core.launch.py

@@ -1,0 +1,2 @@
+Invoking command in '/home/cayo-sousa/ws_ld90_sim/build/amr_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cayo-sousa/ws_ld90_sim/build/amr_msgs -- -j12 -l12
+Invoked command in '/home/cayo-sousa/ws_ld90_sim/build/amr_msgs' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cayo-sousa/ws_ld90_sim/build/amr_msgs -- -j12 -l12

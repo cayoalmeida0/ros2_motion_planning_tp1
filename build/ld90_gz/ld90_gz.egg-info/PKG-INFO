@@ -1,0 +1,7 @@
+Metadata-Version: 2.1
+Name: ld90-gz
+Version: 0.0.1
+Summary: Simulação do Omron LD90 no Gazebo Harmonic com ROS 2 Jazzy.
+Maintainer: cayo-sousa
+Maintainer-email: cayo-sousa@todo.todo
+License: Apache-2.0

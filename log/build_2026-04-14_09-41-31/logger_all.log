@@ -1,0 +1,604 @@
+[0.101s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.101s] DEBUG:colcon:Parsed command line arguments: Namespace(log_base=None, log_level=None, verb_name='build', build_base='build', install_base='install', merge_install=False, symlink_install=True, test_result_base=None, continue_on_error=False, executor='parallel', parallel_workers=12, event_handlers=None, ignore_user_meta=False, metas=['./colcon.meta'], base_paths=['.'], packages_ignore=None, packages_ignore_regex=None, paths=None, packages_up_to=None, packages_up_to_regex=None, packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_select_by_dep=None, packages_skip_by_dep=None, packages_skip_up_to=None, packages_select_build_failed=False, packages_skip_build_finished=False, packages_select_test_failures=False, packages_skip_test_passed=False, packages_select=None, packages_skip=None, packages_select_regex=None, packages_skip_regex=None, packages_start=None, packages_end=None, allow_overriding=[], cmake_args=None, cmake_target=None, cmake_target_skip_unavailable=False, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, ament_cmake_args=None, catkin_cmake_args=None, catkin_skip_building_tests=False, mixin_files=None, mixin=None, verb_parser=<colcon_mixin.mixin.mixin_argument.MixinArgumentDecorator object at 0x7ae4e975e4b0>, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7ae4e98be900>, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7ae4e98be900>>, mixin_verb=('build',))
+[0.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.123s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.124s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.124s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/cayo-sousa/ws_ld90_sim'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.124s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.138s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr) by extension 'ignore_ament_install'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr) by extensions ['colcon_pkg']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr) by extension 'colcon_pkg'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr) by extensions ['colcon_meta']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr) by extension 'colcon_meta'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr) by extensions ['ros']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr) by extension 'ros'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr) by extensions ['cmake', 'python']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr) by extension 'cmake'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr) by extension 'python'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr) by extensions ['python_setup_py']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr) by extension 'python_setup_py'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_core) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_core) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_core) by extension 'ignore_ament_install'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_core) by extensions ['colcon_pkg']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_core) by extension 'colcon_pkg'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_core) by extensions ['colcon_meta']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_core) by extension 'colcon_meta'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_core) by extensions ['ros']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_core) by extension 'ros'
+[0.141s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omron_amr/amr_core' with type 'ros.ament_cmake' and name 'amr_core'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_description) by extensions ['ignore', 'ignore_ament_install']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_description) by extension 'ignore'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_description) by extension 'ignore_ament_install'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_description) by extensions ['colcon_pkg']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_description) by extension 'colcon_pkg'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_description) by extensions ['colcon_meta']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_description) by extension 'colcon_meta'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_description) by extensions ['ros']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_description) by extension 'ros'
+[0.142s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omron_amr/amr_description' with type 'ros.ament_cmake' and name 'amr_description'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_msgs) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_msgs) by extension 'ignore'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_msgs) by extension 'ignore_ament_install'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_msgs) by extensions ['colcon_pkg']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_msgs) by extension 'colcon_pkg'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_msgs) by extensions ['colcon_meta']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_msgs) by extension 'colcon_meta'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_msgs) by extensions ['ros']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_msgs) by extension 'ros'
+[0.142s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omron_amr/amr_msgs' with type 'ros.ament_cmake' and name 'amr_msgs'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_nav2) by extensions ['ignore', 'ignore_ament_install']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_nav2) by extension 'ignore'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_nav2) by extension 'ignore_ament_install'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_nav2) by extensions ['colcon_pkg']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_nav2) by extension 'colcon_pkg'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_nav2) by extensions ['colcon_meta']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_nav2) by extension 'colcon_meta'
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_nav2) by extensions ['ros']
+[0.142s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_nav2) by extension 'ros'
+[0.143s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omron_amr/amr_nav2' with type 'ros.ament_cmake' and name 'amr_nav2'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_ros) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_ros) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_ros) by extension 'ignore_ament_install'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_ros) by extensions ['colcon_pkg']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_ros) by extension 'colcon_pkg'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_ros) by extensions ['colcon_meta']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_ros) by extension 'colcon_meta'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_ros) by extensions ['ros']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_ros) by extension 'ros'
+[0.143s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omron_amr/amr_ros' with type 'ros.ament_cmake' and name 'amr_ros'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_teleop) by extensions ['ignore', 'ignore_ament_install']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_teleop) by extension 'ignore'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_teleop) by extension 'ignore_ament_install'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_teleop) by extensions ['colcon_pkg']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_teleop) by extension 'colcon_pkg'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_teleop) by extensions ['colcon_meta']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_teleop) by extension 'colcon_meta'
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_teleop) by extensions ['ros']
+[0.143s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/amr_teleop) by extension 'ros'
+[0.144s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omron_amr/amr_teleop' with type 'ros.ament_cmake' and name 'amr_teleop'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs) by extension 'ignore_ament_install'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs) by extensions ['colcon_pkg']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs) by extension 'colcon_pkg'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs) by extensions ['colcon_meta']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs) by extension 'colcon_meta'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs) by extensions ['ros']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs) by extension 'ros'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs) by extensions ['cmake', 'python']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs) by extension 'cmake'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs) by extension 'python'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs) by extensions ['python_setup_py']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs) by extension 'python_setup_py'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs/old_docs) by extensions ['ignore', 'ignore_ament_install']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs/old_docs) by extension 'ignore'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs/old_docs) by extension 'ignore_ament_install'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs/old_docs) by extensions ['colcon_pkg']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs/old_docs) by extension 'colcon_pkg'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs/old_docs) by extensions ['colcon_meta']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs/old_docs) by extension 'colcon_meta'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs/old_docs) by extensions ['ros']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs/old_docs) by extension 'ros'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs/old_docs) by extensions ['cmake', 'python']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs/old_docs) by extension 'cmake'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs/old_docs) by extension 'python'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs/old_docs) by extensions ['python_setup_py']
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs/old_docs) by extension 'python_setup_py'
+[0.144s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs/old_docs/dg-images) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs/old_docs/dg-images) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs/old_docs/dg-images) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs/old_docs/dg-images) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs/old_docs/dg-images) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs/old_docs/dg-images) by extensions ['colcon_meta']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs/old_docs/dg-images) by extension 'colcon_meta'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs/old_docs/dg-images) by extensions ['ros']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs/old_docs/dg-images) by extension 'ros'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs/old_docs/dg-images) by extensions ['cmake', 'python']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs/old_docs/dg-images) by extension 'cmake'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs/old_docs/dg-images) by extension 'python'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs/old_docs/dg-images) by extensions ['python_setup_py']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/docs/old_docs/dg-images) by extension 'python_setup_py'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/libaria) by extensions ['ignore', 'ignore_ament_install']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/libaria) by extension 'ignore'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/libaria) by extension 'ignore_ament_install'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/libaria) by extensions ['colcon_pkg']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/libaria) by extension 'colcon_pkg'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/libaria) by extensions ['colcon_meta']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/libaria) by extension 'colcon_meta'
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/libaria) by extensions ['ros']
+[0.145s] Level 1:colcon.colcon_core.package_identification:_identify(src/omron_amr/libaria) by extension 'ros'
+[0.145s] DEBUG:colcon.colcon_core.package_identification:Package 'src/omron_amr/libaria' with type 'ros.cmake' and name 'libaria'
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.145s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.158s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.161s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 552 installed packages in /opt/ros/jazzy
+[0.162s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'amr_msgs' build argument 'cmake_args' from command line to 'None'
+[0.204s] Level 5:colcon.colcon_core.verb:set package 'amr_msgs' build argument 'cmake_target' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_msgs' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_msgs' build argument 'cmake_clean_cache' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_msgs' build argument 'cmake_clean_first' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_msgs' build argument 'cmake_force_configure' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_msgs' build argument 'ament_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_msgs' build argument 'catkin_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_msgs' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.205s] DEBUG:colcon.colcon_core.verb:Building package 'amr_msgs' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cayo-sousa/ws_ld90_sim/build/amr_msgs', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs', 'merge_install': False, 'path': '/home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_msgs', 'symlink_install': True, 'test_result_base': None}
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_nav2' build argument 'cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_nav2' build argument 'cmake_target' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_nav2' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_nav2' build argument 'cmake_clean_cache' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_nav2' build argument 'cmake_clean_first' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_nav2' build argument 'cmake_force_configure' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_nav2' build argument 'ament_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_nav2' build argument 'catkin_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_nav2' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.205s] DEBUG:colcon.colcon_core.verb:Building package 'amr_nav2' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cayo-sousa/ws_ld90_sim/build/amr_nav2', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cayo-sousa/ws_ld90_sim/install/amr_nav2', 'merge_install': False, 'path': '/home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_nav2', 'symlink_install': True, 'test_result_base': None}
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_teleop' build argument 'cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_teleop' build argument 'cmake_target' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_teleop' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_teleop' build argument 'cmake_clean_cache' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_teleop' build argument 'cmake_clean_first' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_teleop' build argument 'cmake_force_configure' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_teleop' build argument 'ament_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_teleop' build argument 'catkin_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_teleop' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.205s] DEBUG:colcon.colcon_core.verb:Building package 'amr_teleop' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cayo-sousa/ws_ld90_sim/build/amr_teleop', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cayo-sousa/ws_ld90_sim/install/amr_teleop', 'merge_install': False, 'path': '/home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_teleop', 'symlink_install': True, 'test_result_base': None}
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'libaria' build argument 'cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'libaria' build argument 'cmake_target' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'libaria' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'libaria' build argument 'cmake_clean_cache' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'libaria' build argument 'cmake_clean_first' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'libaria' build argument 'cmake_force_configure' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'libaria' build argument 'ament_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'libaria' build argument 'catkin_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'libaria' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.205s] DEBUG:colcon.colcon_core.verb:Building package 'libaria' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cayo-sousa/ws_ld90_sim/build/libaria', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cayo-sousa/ws_ld90_sim/install/libaria', 'merge_install': False, 'path': '/home/cayo-sousa/ws_ld90_sim/src/omron_amr/libaria', 'symlink_install': True, 'test_result_base': None}
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_core' build argument 'cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_core' build argument 'cmake_target' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_core' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_core' build argument 'cmake_clean_cache' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_core' build argument 'cmake_clean_first' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_core' build argument 'cmake_force_configure' from command line to 'False'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_core' build argument 'ament_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_core' build argument 'catkin_cmake_args' from command line to 'None'
+[0.205s] Level 5:colcon.colcon_core.verb:set package 'amr_core' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.205s] DEBUG:colcon.colcon_core.verb:Building package 'amr_core' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cayo-sousa/ws_ld90_sim/build/amr_core', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cayo-sousa/ws_ld90_sim/install/amr_core', 'merge_install': False, 'path': '/home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_core', 'symlink_install': True, 'test_result_base': None}
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'cmake_args' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'cmake_target' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'cmake_clean_cache' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'cmake_clean_first' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'cmake_force_configure' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'ament_cmake_args' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'catkin_cmake_args' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'amr_description' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.206s] DEBUG:colcon.colcon_core.verb:Building package 'amr_description' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cayo-sousa/ws_ld90_sim/build/amr_description', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cayo-sousa/ws_ld90_sim/install/amr_description', 'merge_install': False, 'path': '/home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_description', 'symlink_install': True, 'test_result_base': None}
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'amr_ros' build argument 'cmake_args' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'amr_ros' build argument 'cmake_target' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'amr_ros' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'amr_ros' build argument 'cmake_clean_cache' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'amr_ros' build argument 'cmake_clean_first' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'amr_ros' build argument 'cmake_force_configure' from command line to 'False'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'amr_ros' build argument 'ament_cmake_args' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'amr_ros' build argument 'catkin_cmake_args' from command line to 'None'
+[0.206s] Level 5:colcon.colcon_core.verb:set package 'amr_ros' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.206s] DEBUG:colcon.colcon_core.verb:Building package 'amr_ros' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/cayo-sousa/ws_ld90_sim/build/amr_ros', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/cayo-sousa/ws_ld90_sim/install/amr_ros', 'merge_install': False, 'path': '/home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_ros', 'symlink_install': True, 'test_result_base': None}
+[0.206s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.207s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.207s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_msgs' with build type 'ament_cmake'
+[0.207s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_msgs'
+[0.210s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.211s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.211s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.213s] INFO:colcon.colcon_ros.task.cmake.build:Building ROS package in '/home/cayo-sousa/ws_ld90_sim/src/omron_amr/libaria' with build type 'cmake'
+[0.213s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cayo-sousa/ws_ld90_sim/src/omron_amr/libaria'
+[0.213s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.213s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.215s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_nav2' with build type 'ament_cmake'
+[0.215s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_nav2'
+[0.215s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.215s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.217s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_teleop' with build type 'ament_cmake'
+[0.217s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_teleop'
+[0.217s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.217s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cayo-sousa/ws_ld90_sim/build/amr_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs
+[0.222s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cayo-sousa/ws_ld90_sim/build/libaria': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cayo-sousa/ws_ld90_sim/src/omron_amr/libaria -DCMAKE_INSTALL_PREFIX=/home/cayo-sousa/ws_ld90_sim/install/libaria
+[0.224s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cayo-sousa/ws_ld90_sim/build/amr_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_nav2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cayo-sousa/ws_ld90_sim/install/amr_nav2
+[0.225s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cayo-sousa/ws_ld90_sim/build/amr_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_teleop -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cayo-sousa/ws_ld90_sim/install/amr_teleop
+[0.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cayo-sousa/ws_ld90_sim/build/libaria' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cayo-sousa/ws_ld90_sim/src/omron_amr/libaria -DCMAKE_INSTALL_PREFIX=/home/cayo-sousa/ws_ld90_sim/install/libaria
+[0.712s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cayo-sousa/ws_ld90_sim/build/libaria': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cayo-sousa/ws_ld90_sim/build/libaria -- -j12 -l12
+[0.996s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cayo-sousa/ws_ld90_sim/build/amr_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_nav2 -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cayo-sousa/ws_ld90_sim/install/amr_nav2
+[0.997s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cayo-sousa/ws_ld90_sim/build/amr_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cayo-sousa/ws_ld90_sim/build/amr_nav2 -- -j12 -l12
+[1.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cayo-sousa/ws_ld90_sim/build/amr_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_teleop -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cayo-sousa/ws_ld90_sim/install/amr_teleop
+[1.006s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cayo-sousa/ws_ld90_sim/build/amr_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cayo-sousa/ws_ld90_sim/build/amr_teleop -- -j12 -l12
+[1.054s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cayo-sousa/ws_ld90_sim/build/amr_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cayo-sousa/ws_ld90_sim/build/amr_nav2 -- -j12 -l12
+[1.075s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cayo-sousa/ws_ld90_sim/build/amr_nav2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cayo-sousa/ws_ld90_sim/build/amr_nav2
+[1.080s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cayo-sousa/ws_ld90_sim/build/amr_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cayo-sousa/ws_ld90_sim/build/amr_teleop -- -j12 -l12
+[1.082s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cayo-sousa/ws_ld90_sim/build/amr_teleop': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cayo-sousa/ws_ld90_sim/build/amr_teleop
+[1.396s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr_teleop)
+[1.397s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cayo-sousa/ws_ld90_sim/build/amr_teleop' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cayo-sousa/ws_ld90_sim/build/amr_teleop
+[1.405s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_teleop' for CMake module files
+[1.406s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_teleop' for CMake config files
+[1.406s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_teleop', 'cmake_prefix_path')
+[1.407s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/amr_teleop/hook/cmake_prefix_path.ps1'
+[1.413s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/amr_teleop/hook/cmake_prefix_path.dsv'
+[1.414s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/amr_teleop/hook/cmake_prefix_path.sh'
+[1.415s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_teleop/bin'
+[1.415s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_teleop/lib/pkgconfig/amr_teleop.pc'
+[1.415s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_teleop/lib/python3.12/site-packages'
+[1.416s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_teleop/bin'
+[1.416s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/amr_teleop/package.ps1'
+[1.419s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/amr_teleop/package.dsv'
+[1.423s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/amr_teleop/package.sh'
+[1.424s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/amr_teleop/package.bash'
+[1.428s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/amr_teleop/package.zsh'
+[1.429s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/colcon-core/packages/amr_teleop)
+[1.432s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr_teleop)
+[1.432s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_teleop' for CMake module files
+[1.433s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_teleop' for CMake config files
+[1.434s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_teleop', 'cmake_prefix_path')
+[1.434s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/amr_teleop/hook/cmake_prefix_path.ps1'
+[1.436s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/amr_teleop/hook/cmake_prefix_path.dsv'
+[1.436s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/amr_teleop/hook/cmake_prefix_path.sh'
+[1.437s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_teleop/bin'
+[1.437s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_teleop/lib/pkgconfig/amr_teleop.pc'
+[1.437s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_teleop/lib/python3.12/site-packages'
+[1.437s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_teleop/bin'
+[1.438s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/amr_teleop/package.ps1'
+[1.438s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/amr_teleop/package.dsv'
+[1.442s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/amr_teleop/package.sh'
+[1.446s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/amr_teleop/package.bash'
+[1.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/amr_teleop/package.zsh'
+[1.447s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cayo-sousa/ws_ld90_sim/install/amr_teleop/share/colcon-core/packages/amr_teleop)
+[1.617s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr_nav2)
+[1.617s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_nav2' for CMake module files
+[1.618s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_nav2' for CMake config files
+[1.618s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_nav2', 'cmake_prefix_path')
+[1.618s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/amr_nav2/share/amr_nav2/hook/cmake_prefix_path.ps1'
+[1.619s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cayo-sousa/ws_ld90_sim/install/amr_nav2/share/amr_nav2/hook/cmake_prefix_path.dsv'
+[1.619s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/amr_nav2/share/amr_nav2/hook/cmake_prefix_path.sh'
+[1.620s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_nav2/bin'
+[1.620s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_nav2/lib/pkgconfig/amr_nav2.pc'
+[1.622s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_nav2/lib/python3.12/site-packages'
+[1.622s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cayo-sousa/ws_ld90_sim/build/amr_nav2' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cayo-sousa/ws_ld90_sim/build/amr_nav2
+[1.623s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_nav2/bin'
+[1.623s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_nav2/share/amr_nav2/package.ps1'
+[1.624s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cayo-sousa/ws_ld90_sim/install/amr_nav2/share/amr_nav2/package.dsv'
+[1.624s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_nav2/share/amr_nav2/package.sh'
+[1.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_nav2/share/amr_nav2/package.bash'
+[1.625s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_nav2/share/amr_nav2/package.zsh'
+[1.625s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cayo-sousa/ws_ld90_sim/install/amr_nav2/share/colcon-core/packages/amr_nav2)
+[1.626s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr_nav2)
+[1.629s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_nav2' for CMake module files
+[1.630s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_nav2' for CMake config files
+[1.630s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_nav2', 'cmake_prefix_path')
+[1.630s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/amr_nav2/share/amr_nav2/hook/cmake_prefix_path.ps1'
+[1.632s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cayo-sousa/ws_ld90_sim/install/amr_nav2/share/amr_nav2/hook/cmake_prefix_path.dsv'
+[1.635s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/amr_nav2/share/amr_nav2/hook/cmake_prefix_path.sh'
+[1.636s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_nav2/bin'
+[1.636s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_nav2/lib/pkgconfig/amr_nav2.pc'
+[1.636s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_nav2/lib/python3.12/site-packages'
+[1.636s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_nav2/bin'
+[1.637s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_nav2/share/amr_nav2/package.ps1'
+[1.639s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cayo-sousa/ws_ld90_sim/install/amr_nav2/share/amr_nav2/package.dsv'
+[1.642s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_nav2/share/amr_nav2/package.sh'
+[1.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_nav2/share/amr_nav2/package.bash'
+[1.643s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_nav2/share/amr_nav2/package.zsh'
+[1.644s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cayo-sousa/ws_ld90_sim/install/amr_nav2/share/colcon-core/packages/amr_nav2)
+[5.570s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cayo-sousa/ws_ld90_sim/build/amr_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs
+[5.571s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cayo-sousa/ws_ld90_sim/build/amr_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cayo-sousa/ws_ld90_sim/build/amr_msgs -- -j12 -l12
+[10.904s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cayo-sousa/ws_ld90_sim/build/amr_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cayo-sousa/ws_ld90_sim/build/amr_msgs -- -j12 -l12
+[10.905s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cayo-sousa/ws_ld90_sim/build/amr_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cayo-sousa/ws_ld90_sim/build/amr_msgs
+[12.423s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr_msgs)
+[12.424s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs' for CMake module files
+[12.425s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs' for CMake config files
+[12.425s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_msgs', 'cmake_prefix_path')
+[12.425s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/hook/cmake_prefix_path.ps1'
+[12.426s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/hook/cmake_prefix_path.dsv'
+[12.426s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/hook/cmake_prefix_path.sh'
+[12.424s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cayo-sousa/ws_ld90_sim/build/amr_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cayo-sousa/ws_ld90_sim/build/amr_msgs
+[12.427s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib'
+[12.427s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_msgs', 'ld_library_path_lib')
+[12.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/hook/ld_library_path_lib.ps1'
+[12.428s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/hook/ld_library_path_lib.dsv'
+[12.428s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/hook/ld_library_path_lib.sh'
+[12.429s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/bin'
+[12.429s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/pkgconfig/amr_msgs.pc'
+[12.429s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages'
+[12.429s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_msgs', 'pythonpath')
+[12.430s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/hook/pythonpath.ps1'
+[12.430s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/hook/pythonpath.dsv'
+[12.431s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/hook/pythonpath.sh'
+[12.432s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/bin'
+[12.432s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/package.ps1'
+[12.433s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/package.dsv'
+[12.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/package.sh'
+[12.434s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/package.bash'
+[12.435s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/package.zsh'
+[12.435s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/colcon-core/packages/amr_msgs)
+[12.436s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr_msgs)
+[12.436s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs' for CMake module files
+[12.437s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs' for CMake config files
+[12.437s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_msgs', 'cmake_prefix_path')
+[12.438s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/hook/cmake_prefix_path.ps1'
+[12.438s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/hook/cmake_prefix_path.dsv'
+[12.439s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/hook/cmake_prefix_path.sh'
+[12.440s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib'
+[12.440s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_msgs', 'ld_library_path_lib')
+[12.440s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/hook/ld_library_path_lib.ps1'
+[12.441s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/hook/ld_library_path_lib.dsv'
+[12.441s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/hook/ld_library_path_lib.sh'
+[12.442s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/bin'
+[12.442s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/pkgconfig/amr_msgs.pc'
+[12.442s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages'
+[12.442s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_msgs', 'pythonpath')
+[12.443s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/hook/pythonpath.ps1'
+[12.443s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/hook/pythonpath.dsv'
+[12.444s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/hook/pythonpath.sh'
+[12.445s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/bin'
+[12.445s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/package.ps1'
+[12.446s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/package.dsv'
+[12.447s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/package.sh'
+[12.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/package.bash'
+[12.448s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/package.zsh'
+[12.449s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/colcon-core/packages/amr_msgs)
+[12.450s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_description' with build type 'ament_cmake'
+[12.450s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_description'
+[12.450s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[12.451s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[12.464s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cayo-sousa/ws_ld90_sim/build/amr_description': AMENT_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cayo-sousa/ws_ld90_sim/install/amr_description
+[13.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cayo-sousa/ws_ld90_sim/build/amr_description' returned '0': AMENT_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_description -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cayo-sousa/ws_ld90_sim/install/amr_description
+[13.221s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cayo-sousa/ws_ld90_sim/build/amr_description': AMENT_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cayo-sousa/ws_ld90_sim/build/amr_description -- -j12 -l12
+[13.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cayo-sousa/ws_ld90_sim/build/amr_description' returned '0': AMENT_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cayo-sousa/ws_ld90_sim/build/amr_description -- -j12 -l12
+[13.258s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cayo-sousa/ws_ld90_sim/build/amr_description': AMENT_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cayo-sousa/ws_ld90_sim/build/amr_description
+[13.506s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr_description)
+[13.506s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_description' for CMake module files
+[13.507s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cayo-sousa/ws_ld90_sim/build/amr_description' returned '0': AMENT_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cayo-sousa/ws_ld90_sim/build/amr_description
+[13.507s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_description' for CMake config files
+[13.507s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_description', 'cmake_prefix_path')
+[13.507s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/amr_description/share/amr_description/hook/cmake_prefix_path.ps1'
+[13.508s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cayo-sousa/ws_ld90_sim/install/amr_description/share/amr_description/hook/cmake_prefix_path.dsv'
+[13.508s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/amr_description/share/amr_description/hook/cmake_prefix_path.sh'
+[13.509s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_description/bin'
+[13.509s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_description/lib/pkgconfig/amr_description.pc'
+[13.509s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_description/lib/python3.12/site-packages'
+[13.509s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_description/bin'
+[13.509s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_description/share/amr_description/package.ps1'
+[13.510s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cayo-sousa/ws_ld90_sim/install/amr_description/share/amr_description/package.dsv'
+[13.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_description/share/amr_description/package.sh'
+[13.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_description/share/amr_description/package.bash'
+[13.510s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_description/share/amr_description/package.zsh'
+[13.510s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cayo-sousa/ws_ld90_sim/install/amr_description/share/colcon-core/packages/amr_description)
+[13.511s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr_description)
+[13.511s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_description' for CMake module files
+[13.511s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_description' for CMake config files
+[13.511s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_description', 'cmake_prefix_path')
+[13.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/amr_description/share/amr_description/hook/cmake_prefix_path.ps1'
+[13.511s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cayo-sousa/ws_ld90_sim/install/amr_description/share/amr_description/hook/cmake_prefix_path.dsv'
+[13.511s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/amr_description/share/amr_description/hook/cmake_prefix_path.sh'
+[13.512s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_description/bin'
+[13.512s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_description/lib/pkgconfig/amr_description.pc'
+[13.512s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_description/lib/python3.12/site-packages'
+[13.512s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_description/bin'
+[13.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_description/share/amr_description/package.ps1'
+[13.512s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cayo-sousa/ws_ld90_sim/install/amr_description/share/amr_description/package.dsv'
+[13.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_description/share/amr_description/package.sh'
+[13.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_description/share/amr_description/package.bash'
+[13.513s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_description/share/amr_description/package.zsh'
+[13.513s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cayo-sousa/ws_ld90_sim/install/amr_description/share/colcon-core/packages/amr_description)
+[24.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cayo-sousa/ws_ld90_sim/build/libaria' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cayo-sousa/ws_ld90_sim/build/libaria -- -j12 -l12
+[24.889s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cayo-sousa/ws_ld90_sim/build/libaria': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cayo-sousa/ws_ld90_sim/build/libaria
+[24.917s] Level 1:colcon.colcon_core.shell:create_environment_hook('libaria', 'pkg_config_path')
+[24.917s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/libaria/share/libaria/hook/pkg_config_path.ps1'
+[24.918s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cayo-sousa/ws_ld90_sim/install/libaria/share/libaria/hook/pkg_config_path.dsv'
+[24.918s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/libaria/share/libaria/hook/pkg_config_path.sh'
+[24.919s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cayo-sousa/ws_ld90_sim/build/libaria' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cayo-sousa/ws_ld90_sim/build/libaria
+[24.920s] Level 1:colcon.colcon_core.shell:create_environment_hook('libaria', 'pkg_config_path_multiarch')
+[24.920s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/libaria/share/libaria/hook/pkg_config_path_multiarch.ps1'
+[24.920s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cayo-sousa/ws_ld90_sim/install/libaria/share/libaria/hook/pkg_config_path_multiarch.dsv'
+[24.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/libaria/share/libaria/hook/pkg_config_path_multiarch.sh'
+[24.921s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(libaria)
+[24.921s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/libaria' for CMake module files
+[24.921s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/libaria' for CMake config files
+[24.921s] Level 1:colcon.colcon_core.shell:create_environment_hook('libaria', 'cmake_prefix_path')
+[24.921s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/libaria/share/libaria/hook/cmake_prefix_path.ps1'
+[24.922s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cayo-sousa/ws_ld90_sim/install/libaria/share/libaria/hook/cmake_prefix_path.dsv'
+[24.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/libaria/share/libaria/hook/cmake_prefix_path.sh'
+[24.922s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/libaria/lib'
+[24.922s] Level 1:colcon.colcon_core.shell:create_environment_hook('libaria', 'ld_library_path_lib')
+[24.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/libaria/share/libaria/hook/ld_library_path_lib.ps1'
+[24.922s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cayo-sousa/ws_ld90_sim/install/libaria/share/libaria/hook/ld_library_path_lib.dsv'
+[24.922s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/libaria/share/libaria/hook/ld_library_path_lib.sh'
+[24.923s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/libaria/bin'
+[24.923s] Level 1:colcon.colcon_core.shell:create_environment_hook('libaria', 'path')
+[24.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/libaria/share/libaria/hook/path.ps1'
+[24.923s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cayo-sousa/ws_ld90_sim/install/libaria/share/libaria/hook/path.dsv'
+[24.923s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/libaria/share/libaria/hook/path.sh'
+[24.923s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/libaria/lib/pkgconfig/libaria.pc'
+[24.923s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/libaria/lib/python3.12/site-packages'
+[24.923s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/libaria/bin'
+[24.923s] Level 1:colcon.colcon_core.shell:create_environment_hook('libaria', 'pythonscriptspath')
+[24.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/libaria/share/libaria/hook/pythonscriptspath.ps1'
+[24.924s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cayo-sousa/ws_ld90_sim/install/libaria/share/libaria/hook/pythonscriptspath.dsv'
+[24.924s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/libaria/share/libaria/hook/pythonscriptspath.sh'
+[24.924s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/libaria/share/libaria/package.ps1'
+[24.925s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cayo-sousa/ws_ld90_sim/install/libaria/share/libaria/package.dsv'
+[24.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/libaria/share/libaria/package.sh'
+[24.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/libaria/share/libaria/package.bash'
+[24.925s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/libaria/share/libaria/package.zsh'
+[24.925s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cayo-sousa/ws_ld90_sim/install/libaria/share/colcon-core/packages/libaria)
+[24.926s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_core' with build type 'ament_cmake'
+[24.926s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_core'
+[24.926s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[24.926s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[24.936s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cayo-sousa/ws_ld90_sim/build/amr_core': AMENT_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria:/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/lib:/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/bin:${PATH} PKG_CONFIG_PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/lib/x86_64-linux-gnu/pkgconfig:/home/cayo-sousa/ws_ld90_sim/install/libaria/lib/pkgconfig PYTHONPATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cayo-sousa/ws_ld90_sim/install/amr_core
+[26.084s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cayo-sousa/ws_ld90_sim/build/amr_core' returned '0': AMENT_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria:/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/lib:/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/bin:${PATH} PKG_CONFIG_PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/lib/x86_64-linux-gnu/pkgconfig:/home/cayo-sousa/ws_ld90_sim/install/libaria/lib/pkgconfig PYTHONPATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_core -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cayo-sousa/ws_ld90_sim/install/amr_core
+[26.085s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cayo-sousa/ws_ld90_sim/build/amr_core': AMENT_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria:/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/lib:/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/bin:${PATH} PKG_CONFIG_PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/lib/x86_64-linux-gnu/pkgconfig:/home/cayo-sousa/ws_ld90_sim/install/libaria/lib/pkgconfig PYTHONPATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cayo-sousa/ws_ld90_sim/build/amr_core -- -j12 -l12
+[38.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cayo-sousa/ws_ld90_sim/build/amr_core' returned '0': AMENT_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria:/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/lib:/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/bin:${PATH} PKG_CONFIG_PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/lib/x86_64-linux-gnu/pkgconfig:/home/cayo-sousa/ws_ld90_sim/install/libaria/lib/pkgconfig PYTHONPATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cayo-sousa/ws_ld90_sim/build/amr_core -- -j12 -l12
+[38.257s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cayo-sousa/ws_ld90_sim/build/amr_core': AMENT_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria:/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/lib:/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/bin:${PATH} PKG_CONFIG_PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/lib/x86_64-linux-gnu/pkgconfig:/home/cayo-sousa/ws_ld90_sim/install/libaria/lib/pkgconfig PYTHONPATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cayo-sousa/ws_ld90_sim/build/amr_core
+[38.368s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr_core)
+[38.369s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_core' for CMake module files
+[38.369s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cayo-sousa/ws_ld90_sim/build/amr_core' returned '0': AMENT_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria:/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/lib:/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/bin:${PATH} PKG_CONFIG_PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/lib/x86_64-linux-gnu/pkgconfig:/home/cayo-sousa/ws_ld90_sim/install/libaria/lib/pkgconfig PYTHONPATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cayo-sousa/ws_ld90_sim/build/amr_core
+[38.369s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_core' for CMake config files
+[38.370s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_core', 'cmake_prefix_path')
+[38.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/amr_core/share/amr_core/hook/cmake_prefix_path.ps1'
+[38.370s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cayo-sousa/ws_ld90_sim/install/amr_core/share/amr_core/hook/cmake_prefix_path.dsv'
+[38.370s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/amr_core/share/amr_core/hook/cmake_prefix_path.sh'
+[38.371s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_core/lib'
+[38.371s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_core/bin'
+[38.371s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_core/lib/pkgconfig/amr_core.pc'
+[38.371s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_core/lib/python3.12/site-packages'
+[38.371s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_core/bin'
+[38.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_core/share/amr_core/package.ps1'
+[38.372s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cayo-sousa/ws_ld90_sim/install/amr_core/share/amr_core/package.dsv'
+[38.372s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_core/share/amr_core/package.sh'
+[38.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_core/share/amr_core/package.bash'
+[38.373s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_core/share/amr_core/package.zsh'
+[38.373s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cayo-sousa/ws_ld90_sim/install/amr_core/share/colcon-core/packages/amr_core)
+[38.373s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr_core)
+[38.374s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_core' for CMake module files
+[38.374s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_core' for CMake config files
+[38.374s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_core', 'cmake_prefix_path')
+[38.374s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/amr_core/share/amr_core/hook/cmake_prefix_path.ps1'
+[38.375s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cayo-sousa/ws_ld90_sim/install/amr_core/share/amr_core/hook/cmake_prefix_path.dsv'
+[38.375s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/amr_core/share/amr_core/hook/cmake_prefix_path.sh'
+[38.375s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_core/lib'
+[38.375s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_core/bin'
+[38.375s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_core/lib/pkgconfig/amr_core.pc'
+[38.376s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_core/lib/python3.12/site-packages'
+[38.376s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_core/bin'
+[38.376s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_core/share/amr_core/package.ps1'
+[38.377s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cayo-sousa/ws_ld90_sim/install/amr_core/share/amr_core/package.dsv'
+[38.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_core/share/amr_core/package.sh'
+[38.377s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_core/share/amr_core/package.bash'
+[38.378s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_core/share/amr_core/package.zsh'
+[38.378s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cayo-sousa/ws_ld90_sim/install/amr_core/share/colcon-core/packages/amr_core)
+[38.378s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_ros' with build type 'ament_cmake'
+[38.378s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_ros'
+[38.378s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[38.378s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[38.389s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cayo-sousa/ws_ld90_sim/build/amr_ros': AMENT_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_description:/home/cayo-sousa/ws_ld90_sim/install/amr_core:/home/cayo-sousa/ws_ld90_sim/install/amr_nav2:/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_description:/home/cayo-sousa/ws_ld90_sim/install/amr_core:/home/cayo-sousa/ws_ld90_sim/install/libaria:/home/cayo-sousa/ws_ld90_sim/install/amr_nav2:/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/lib:/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/bin:${PATH} PKG_CONFIG_PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/lib/x86_64-linux-gnu/pkgconfig:/home/cayo-sousa/ws_ld90_sim/install/libaria/lib/pkgconfig PYTHONPATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cayo-sousa/ws_ld90_sim/install/amr_ros
+[38.895s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cayo-sousa/ws_ld90_sim/build/amr_ros' returned '0': AMENT_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_description:/home/cayo-sousa/ws_ld90_sim/install/amr_core:/home/cayo-sousa/ws_ld90_sim/install/amr_nav2:/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_description:/home/cayo-sousa/ws_ld90_sim/install/amr_core:/home/cayo-sousa/ws_ld90_sim/install/libaria:/home/cayo-sousa/ws_ld90_sim/install/amr_nav2:/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/lib:/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/bin:${PATH} PKG_CONFIG_PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/lib/x86_64-linux-gnu/pkgconfig:/home/cayo-sousa/ws_ld90_sim/install/libaria/lib/pkgconfig PYTHONPATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake /home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_ros -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cayo-sousa/ws_ld90_sim/install/amr_ros
+[38.896s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cayo-sousa/ws_ld90_sim/build/amr_ros': AMENT_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_description:/home/cayo-sousa/ws_ld90_sim/install/amr_core:/home/cayo-sousa/ws_ld90_sim/install/amr_nav2:/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_description:/home/cayo-sousa/ws_ld90_sim/install/amr_core:/home/cayo-sousa/ws_ld90_sim/install/libaria:/home/cayo-sousa/ws_ld90_sim/install/amr_nav2:/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/lib:/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/bin:${PATH} PKG_CONFIG_PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/lib/x86_64-linux-gnu/pkgconfig:/home/cayo-sousa/ws_ld90_sim/install/libaria/lib/pkgconfig PYTHONPATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cayo-sousa/ws_ld90_sim/build/amr_ros -- -j12 -l12
+[38.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cayo-sousa/ws_ld90_sim/build/amr_ros' returned '0': AMENT_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_description:/home/cayo-sousa/ws_ld90_sim/install/amr_core:/home/cayo-sousa/ws_ld90_sim/install/amr_nav2:/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_description:/home/cayo-sousa/ws_ld90_sim/install/amr_core:/home/cayo-sousa/ws_ld90_sim/install/libaria:/home/cayo-sousa/ws_ld90_sim/install/amr_nav2:/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/lib:/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/bin:${PATH} PKG_CONFIG_PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/lib/x86_64-linux-gnu/pkgconfig:/home/cayo-sousa/ws_ld90_sim/install/libaria/lib/pkgconfig PYTHONPATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --build /home/cayo-sousa/ws_ld90_sim/build/amr_ros -- -j12 -l12
+[38.928s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/cayo-sousa/ws_ld90_sim/build/amr_ros': AMENT_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_description:/home/cayo-sousa/ws_ld90_sim/install/amr_core:/home/cayo-sousa/ws_ld90_sim/install/amr_nav2:/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_description:/home/cayo-sousa/ws_ld90_sim/install/amr_core:/home/cayo-sousa/ws_ld90_sim/install/libaria:/home/cayo-sousa/ws_ld90_sim/install/amr_nav2:/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/lib:/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/bin:${PATH} PKG_CONFIG_PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/lib/x86_64-linux-gnu/pkgconfig:/home/cayo-sousa/ws_ld90_sim/install/libaria/lib/pkgconfig PYTHONPATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cayo-sousa/ws_ld90_sim/build/amr_ros
+[39.118s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr_ros)
+[39.118s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_ros' for CMake module files
+[39.119s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/cayo-sousa/ws_ld90_sim/build/amr_ros' returned '0': AMENT_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_description:/home/cayo-sousa/ws_ld90_sim/install/amr_core:/home/cayo-sousa/ws_ld90_sim/install/amr_nav2:/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:${AMENT_PREFIX_PATH} CMAKE_PREFIX_PATH=/home/cayo-sousa/ws_ld90_sim/install/amr_description:/home/cayo-sousa/ws_ld90_sim/install/amr_core:/home/cayo-sousa/ws_ld90_sim/install/libaria:/home/cayo-sousa/ws_ld90_sim/install/amr_nav2:/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:/opt/ros/jazzy/opt/gz_sim_vendor:/opt/ros/jazzy/opt/gz_sensors_vendor:/opt/ros/jazzy/opt/gz_physics_vendor:/opt/ros/jazzy/opt/sdformat_vendor:/opt/ros/jazzy/opt/gz_gui_vendor:/opt/ros/jazzy/opt/gz_transport_vendor:/opt/ros/jazzy/opt/gz_rendering_vendor:/opt/ros/jazzy/opt/gz_plugin_vendor:/opt/ros/jazzy/opt/gz_fuel_tools_vendor:/opt/ros/jazzy/opt/gz_msgs_vendor:/opt/ros/jazzy/opt/gz_common_vendor:/opt/ros/jazzy/opt/gz_math_vendor:/opt/ros/jazzy/opt/gz_utils_vendor:/opt/ros/jazzy/opt/gz_tools_vendor:/opt/ros/jazzy/opt/gz_ogre_next_vendor:/opt/ros/jazzy/opt/gz_dartsim_vendor:/opt/ros/jazzy/opt/gz_cmake_vendor:/opt/ros/jazzy DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/lib:/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib:${LD_LIBRARY_PATH} PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/bin:${PATH} PKG_CONFIG_PATH=/home/cayo-sousa/ws_ld90_sim/install/libaria/lib/x86_64-linux-gnu/pkgconfig:/home/cayo-sousa/ws_ld90_sim/install/libaria/lib/pkgconfig PYTHONPATH=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/cmake --install /home/cayo-sousa/ws_ld90_sim/build/amr_ros
+[39.119s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_ros' for CMake config files
+[39.119s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_ros', 'cmake_prefix_path')
+[39.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/hook/cmake_prefix_path.ps1'
+[39.119s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/hook/cmake_prefix_path.dsv'
+[39.119s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/hook/cmake_prefix_path.sh'
+[39.120s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_ros/bin'
+[39.120s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_ros/lib/pkgconfig/amr_ros.pc'
+[39.120s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_ros/lib/python3.12/site-packages'
+[39.120s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_ros/bin'
+[39.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/package.ps1'
+[39.120s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/package.dsv'
+[39.120s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/package.sh'
+[39.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/package.bash'
+[39.121s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/package.zsh'
+[39.121s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/colcon-core/packages/amr_ros)
+[39.121s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(amr_ros)
+[39.121s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_ros' for CMake module files
+[39.121s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_ros' for CMake config files
+[39.122s] Level 1:colcon.colcon_core.shell:create_environment_hook('amr_ros', 'cmake_prefix_path')
+[39.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/hook/cmake_prefix_path.ps1'
+[39.122s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/hook/cmake_prefix_path.dsv'
+[39.122s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/hook/cmake_prefix_path.sh'
+[39.122s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_ros/bin'
+[39.122s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_ros/lib/pkgconfig/amr_ros.pc'
+[39.122s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_ros/lib/python3.12/site-packages'
+[39.123s] Level 1:colcon.colcon_core.environment:checking '/home/cayo-sousa/ws_ld90_sim/install/amr_ros/bin'
+[39.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/package.ps1'
+[39.123s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/package.dsv'
+[39.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/package.sh'
+[39.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/package.bash'
+[39.123s] INFO:colcon.colcon_core.shell:Creating package script '/home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/amr_ros/package.zsh'
+[39.124s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/cayo-sousa/ws_ld90_sim/install/amr_ros/share/colcon-core/packages/amr_ros)
+[39.124s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[39.124s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[39.124s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[39.124s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[39.131s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[39.131s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[39.131s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[39.150s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[39.150s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cayo-sousa/ws_ld90_sim/install/local_setup.ps1'
+[39.151s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cayo-sousa/ws_ld90_sim/install/_local_setup_util_ps1.py'
+[39.152s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cayo-sousa/ws_ld90_sim/install/setup.ps1'
+[39.152s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cayo-sousa/ws_ld90_sim/install/local_setup.sh'
+[39.153s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/cayo-sousa/ws_ld90_sim/install/_local_setup_util_sh.py'
+[39.153s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cayo-sousa/ws_ld90_sim/install/setup.sh'
+[39.153s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cayo-sousa/ws_ld90_sim/install/local_setup.bash'
+[39.154s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cayo-sousa/ws_ld90_sim/install/setup.bash'
+[39.154s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/cayo-sousa/ws_ld90_sim/install/local_setup.zsh'
+[39.154s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/cayo-sousa/ws_ld90_sim/install/setup.zsh'

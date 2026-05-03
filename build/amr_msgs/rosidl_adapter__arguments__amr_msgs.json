@@ -1,0 +1,7 @@
+{
+  "package_name": "amr_msgs",
+  "non_idl_tuples": [
+    "/home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_msgs:msg/Location.msg",
+    "/home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_msgs:msg/Status.msg"
+  ]
+}

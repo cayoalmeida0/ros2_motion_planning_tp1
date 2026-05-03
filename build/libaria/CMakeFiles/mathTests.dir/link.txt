@@ -1,0 +1,1 @@
+/usr/bin/c++ CMakeFiles/mathTests.dir/tests/mathTests.cpp.o -o mathTests  -Wl,-rpath,/home/cayo-sousa/ws_ld90_sim/build/libaria libAria.so 

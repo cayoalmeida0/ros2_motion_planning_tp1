@@ -1,0 +1,1 @@
+/home/cayo-sousa/ws_ld90_sim/build/amr_msgs/ament_cmake_core/amr_msgsConfig.cmake
