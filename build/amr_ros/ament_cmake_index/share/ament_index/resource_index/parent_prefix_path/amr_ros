@@ -1,1 +1,1 @@
-/home/cayo-sousa/ws_ld90_sim/install/amr_description:/home/cayo-sousa/ws_ld90_sim/install/amr_core:/home/cayo-sousa/ws_ld90_sim/install/amr_nav2:/home/cayo-sousa/ws_ld90_sim/install/amr_msgs:/opt/ros/jazzy
+/opt/ros/jazzy:/home/cayo-sousa/ws_ld90_sim/install/amr_ros:/home/cayo-sousa/ws_ld90_sim/install/amr_core:/home/cayo-sousa/ws_ld90_sim/install/ld90_gz:/home/cayo-sousa/ws_ld90_sim/install/amr_teleop:/home/cayo-sousa/ws_ld90_sim/install/amr_nav2:/home/cayo-sousa/ws_ld90_sim/install/amr_description:/home/cayo-sousa/ws_ld90_sim/install/amr_msgs

@@ -242,7 +242,7 @@ amr_core: /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_c.so
 amr_core: /opt/ros/jazzy/lib/librosidl_typesupport_fastrtps_cpp.so
 amr_core: /opt/ros/jazzy/lib/librmw.so
 amr_core: /opt/ros/jazzy/lib/librosidl_dynamic_typesupport.so
-amr_core: /opt/ros/jazzy/lib/libfastcdr.so.2.2.5
+amr_core: /opt/ros/jazzy/lib/libfastcdr.so.2.2.7
 amr_core: /opt/ros/jazzy/lib/librosidl_typesupport_introspection_cpp.so
 amr_core: /opt/ros/jazzy/lib/librosidl_typesupport_introspection_c.so
 amr_core: /opt/ros/jazzy/lib/librosidl_typesupport_cpp.so

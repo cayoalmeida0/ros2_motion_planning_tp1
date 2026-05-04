@@ -55,6 +55,12 @@
 /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages/amr_msgs/amr_msgs_s__rosidl_typesupport_fastrtps_c.so
 /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages/amr_msgs/amr_msgs_s__rosidl_typesupport_introspection_c.so
 /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages/amr_msgs/amr_msgs_s__rosidl_typesupport_c.so
+/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/ament_index/resource_index/rust_packages/amr_msgs
+/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/rust/Cargo.toml
+/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/rust/build.rs
+/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/rust/src/lib.rs
+/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/rust/src/msg.rs
+/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/rust/src/msg/rmw.rs
 /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/msg/Location.idl
 /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/msg/Status.idl
 /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/msg/Location.msg

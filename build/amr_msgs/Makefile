@@ -418,6 +418,19 @@ amr_msgs__py/fast:
 	$(MAKE) $(MAKESILENT) -f /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/amr_msgs__py/CMakeFiles/amr_msgs__py.dir/build.make /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/amr_msgs__py/CMakeFiles/amr_msgs__py.dir/build
 .PHONY : amr_msgs__py/fast
 
+#=============================================================================
+# Target rules for targets named amr_msgs__rs
+
+# Build rule for target.
+amr_msgs__rs: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 amr_msgs__rs
+.PHONY : amr_msgs__rs
+
+# fast build rule for target.
+amr_msgs__rs/fast:
+	$(MAKE) $(MAKESILENT) -f /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/amr_msgs__rs/CMakeFiles/amr_msgs__rs.dir/build.make /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/amr_msgs__rs/CMakeFiles/amr_msgs__rs.dir/build
+.PHONY : amr_msgs__rs/fast
+
 rosidl_generator_c/amr_msgs/msg/detail/location__description.o: rosidl_generator_c/amr_msgs/msg/detail/location__description.c.o
 .PHONY : rosidl_generator_c/amr_msgs/msg/detail/location__description.o
 
@@ -989,6 +1002,7 @@ help:
 	@echo "... amr_msgs__cpp"
 	@echo "... amr_msgs__py"
 	@echo "... amr_msgs__rosidl_generator_type_description"
+	@echo "... amr_msgs__rs"
 	@echo "... amr_msgs_uninstall"
 	@echo "... uninstall"
 	@echo "... amr_msgs__rosidl_generator_c"

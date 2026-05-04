@@ -4,9 +4,9 @@
 
 #include <string.h>
 
+#include "amr_msgs/msg/detail/location__type_support.h"
 #include "rosidl_typesupport_interface/macros.h"
 #include "amr_msgs/msg/detail/location__struct.h"
-#include "amr_msgs/msg/detail/location__type_support.h"
 #include "amr_msgs/msg/detail/location__functions.h"
 
 #ifdef __cplusplus

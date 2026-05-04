@@ -77,10 +77,12 @@ all: CMakeFiles/amr_msgs_s__rosidl_typesupport_fastrtps_c.dir/all
 all: CMakeFiles/amr_msgs_s__rosidl_typesupport_introspection_c.dir/all
 all: CMakeFiles/amr_msgs_s__rosidl_typesupport_c.dir/all
 all: amr_msgs__py/all
+all: amr_msgs__rs/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
 preinstall: amr_msgs__py/preinstall
+preinstall: amr_msgs__rs/preinstall
 .PHONY : preinstall
 
 # The main recursive "clean" target.
@@ -103,6 +105,7 @@ clean: CMakeFiles/amr_msgs_s__rosidl_typesupport_fastrtps_c.dir/clean
 clean: CMakeFiles/amr_msgs_s__rosidl_typesupport_introspection_c.dir/clean
 clean: CMakeFiles/amr_msgs_s__rosidl_typesupport_c.dir/clean
 clean: amr_msgs__py/clean
+clean: amr_msgs__rs/clean
 .PHONY : clean
 
 #=============================================================================
@@ -119,6 +122,21 @@ amr_msgs__py/preinstall:
 # Recursive "clean" directory target.
 amr_msgs__py/clean: amr_msgs__py/CMakeFiles/amr_msgs__py.dir/clean
 .PHONY : amr_msgs__py/clean
+
+#=============================================================================
+# Directory level rules for directory amr_msgs__rs
+
+# Recursive "all" directory target.
+amr_msgs__rs/all: amr_msgs__rs/CMakeFiles/amr_msgs__rs.dir/all
+.PHONY : amr_msgs__rs/all
+
+# Recursive "preinstall" directory target.
+amr_msgs__rs/preinstall:
+.PHONY : amr_msgs__rs/preinstall
+
+# Recursive "clean" directory target.
+amr_msgs__rs/clean: amr_msgs__rs/CMakeFiles/amr_msgs__rs.dir/clean
+.PHONY : amr_msgs__rs/clean
 
 #=============================================================================
 # Target rules for target CMakeFiles/uninstall.dir
@@ -176,8 +194,6 @@ CMakeFiles/amr_msgs_uninstall.dir/clean:
 # Target rules for target CMakeFiles/amr_msgs.dir
 
 # All Build rule for target.
-CMakeFiles/amr_msgs.dir/all: CMakeFiles/amr_msgs__rosidl_typesupport_introspection_cpp.dir/all
-CMakeFiles/amr_msgs.dir/all: CMakeFiles/amr_msgs__rosidl_typesupport_cpp.dir/all
 CMakeFiles/amr_msgs.dir/all: CMakeFiles/amr_msgs__rosidl_generator_type_description.dir/all
 CMakeFiles/amr_msgs.dir/all: CMakeFiles/amr_msgs__rosidl_generator_c.dir/all
 CMakeFiles/amr_msgs.dir/all: CMakeFiles/amr_msgs__rosidl_typesupport_fastrtps_c.dir/all
@@ -185,6 +201,9 @@ CMakeFiles/amr_msgs.dir/all: CMakeFiles/amr_msgs__cpp.dir/all
 CMakeFiles/amr_msgs.dir/all: CMakeFiles/amr_msgs__rosidl_typesupport_fastrtps_cpp.dir/all
 CMakeFiles/amr_msgs.dir/all: CMakeFiles/amr_msgs__rosidl_typesupport_introspection_c.dir/all
 CMakeFiles/amr_msgs.dir/all: CMakeFiles/amr_msgs__rosidl_typesupport_c.dir/all
+CMakeFiles/amr_msgs.dir/all: CMakeFiles/amr_msgs__rosidl_typesupport_introspection_cpp.dir/all
+CMakeFiles/amr_msgs.dir/all: CMakeFiles/amr_msgs__rosidl_typesupport_cpp.dir/all
+CMakeFiles/amr_msgs.dir/all: amr_msgs__rs/CMakeFiles/amr_msgs__rs.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_msgs.dir/build.make CMakeFiles/amr_msgs.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_msgs.dir/build.make CMakeFiles/amr_msgs.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/cayo-sousa/ws_ld90_sim/build/amr_msgs/CMakeFiles --progress-num= "Built target amr_msgs"
@@ -192,7 +211,7 @@ CMakeFiles/amr_msgs.dir/all: CMakeFiles/amr_msgs__rosidl_typesupport_c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/amr_msgs.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/CMakeFiles 34
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/CMakeFiles 35
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/amr_msgs.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/CMakeFiles 0
 .PHONY : CMakeFiles/amr_msgs.dir/rule
@@ -499,9 +518,9 @@ CMakeFiles/ament_cmake_python_build_amr_msgs_egg.dir/clean:
 # Target rules for target CMakeFiles/amr_msgs__rosidl_generator_py.dir
 
 # All Build rule for target.
-CMakeFiles/amr_msgs__rosidl_generator_py.dir/all: amr_msgs__py/CMakeFiles/amr_msgs__py.dir/all
 CMakeFiles/amr_msgs__rosidl_generator_py.dir/all: CMakeFiles/amr_msgs__rosidl_generator_c.dir/all
 CMakeFiles/amr_msgs__rosidl_generator_py.dir/all: CMakeFiles/amr_msgs__rosidl_typesupport_c.dir/all
+CMakeFiles/amr_msgs__rosidl_generator_py.dir/all: amr_msgs__py/CMakeFiles/amr_msgs__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_msgs__rosidl_generator_py.dir/build.make CMakeFiles/amr_msgs__rosidl_generator_py.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_msgs__rosidl_generator_py.dir/build.make CMakeFiles/amr_msgs__rosidl_generator_py.dir/build
 	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/cayo-sousa/ws_ld90_sim/build/amr_msgs/CMakeFiles --progress-num=11,12,13 "Built target amr_msgs__rosidl_generator_py"
@@ -509,7 +528,7 @@ CMakeFiles/amr_msgs__rosidl_generator_py.dir/all: CMakeFiles/amr_msgs__rosidl_ty
 
 # Build rule for subdir invocation for target.
 CMakeFiles/amr_msgs__rosidl_generator_py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/CMakeFiles 38
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/CMakeFiles 39
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/amr_msgs__rosidl_generator_py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/CMakeFiles 0
 .PHONY : CMakeFiles/amr_msgs__rosidl_generator_py.dir/rule
@@ -527,19 +546,19 @@ CMakeFiles/amr_msgs__rosidl_generator_py.dir/clean:
 # Target rules for target CMakeFiles/amr_msgs_s__rosidl_typesupport_fastrtps_c.dir
 
 # All Build rule for target.
-CMakeFiles/amr_msgs_s__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/amr_msgs__rosidl_generator_py.dir/all
-CMakeFiles/amr_msgs_s__rosidl_typesupport_fastrtps_c.dir/all: amr_msgs__py/CMakeFiles/amr_msgs__py.dir/all
 CMakeFiles/amr_msgs_s__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/amr_msgs__rosidl_generator_c.dir/all
 CMakeFiles/amr_msgs_s__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/amr_msgs__rosidl_typesupport_fastrtps_c.dir/all
 CMakeFiles/amr_msgs_s__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/amr_msgs__rosidl_typesupport_c.dir/all
+CMakeFiles/amr_msgs_s__rosidl_typesupport_fastrtps_c.dir/all: CMakeFiles/amr_msgs__rosidl_generator_py.dir/all
+CMakeFiles/amr_msgs_s__rosidl_typesupport_fastrtps_c.dir/all: amr_msgs__py/CMakeFiles/amr_msgs__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_msgs_s__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/amr_msgs_s__rosidl_typesupport_fastrtps_c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_msgs_s__rosidl_typesupport_fastrtps_c.dir/build.make CMakeFiles/amr_msgs_s__rosidl_typesupport_fastrtps_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/cayo-sousa/ws_ld90_sim/build/amr_msgs/CMakeFiles --progress-num=41,42 "Built target amr_msgs_s__rosidl_typesupport_fastrtps_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/cayo-sousa/ws_ld90_sim/build/amr_msgs/CMakeFiles --progress-num=42,43 "Built target amr_msgs_s__rosidl_typesupport_fastrtps_c"
 .PHONY : CMakeFiles/amr_msgs_s__rosidl_typesupport_fastrtps_c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/amr_msgs_s__rosidl_typesupport_fastrtps_c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/CMakeFiles 40
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/CMakeFiles 41
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/amr_msgs_s__rosidl_typesupport_fastrtps_c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/CMakeFiles 0
 .PHONY : CMakeFiles/amr_msgs_s__rosidl_typesupport_fastrtps_c.dir/rule
@@ -557,19 +576,19 @@ CMakeFiles/amr_msgs_s__rosidl_typesupport_fastrtps_c.dir/clean:
 # Target rules for target CMakeFiles/amr_msgs_s__rosidl_typesupport_introspection_c.dir
 
 # All Build rule for target.
-CMakeFiles/amr_msgs_s__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/amr_msgs__rosidl_generator_py.dir/all
-CMakeFiles/amr_msgs_s__rosidl_typesupport_introspection_c.dir/all: amr_msgs__py/CMakeFiles/amr_msgs__py.dir/all
 CMakeFiles/amr_msgs_s__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/amr_msgs__rosidl_generator_c.dir/all
 CMakeFiles/amr_msgs_s__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/amr_msgs__rosidl_typesupport_introspection_c.dir/all
 CMakeFiles/amr_msgs_s__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/amr_msgs__rosidl_typesupport_c.dir/all
+CMakeFiles/amr_msgs_s__rosidl_typesupport_introspection_c.dir/all: CMakeFiles/amr_msgs__rosidl_generator_py.dir/all
+CMakeFiles/amr_msgs_s__rosidl_typesupport_introspection_c.dir/all: amr_msgs__py/CMakeFiles/amr_msgs__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_msgs_s__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/amr_msgs_s__rosidl_typesupport_introspection_c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_msgs_s__rosidl_typesupport_introspection_c.dir/build.make CMakeFiles/amr_msgs_s__rosidl_typesupport_introspection_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/cayo-sousa/ws_ld90_sim/build/amr_msgs/CMakeFiles --progress-num=43,44 "Built target amr_msgs_s__rosidl_typesupport_introspection_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/cayo-sousa/ws_ld90_sim/build/amr_msgs/CMakeFiles --progress-num=44,45 "Built target amr_msgs_s__rosidl_typesupport_introspection_c"
 .PHONY : CMakeFiles/amr_msgs_s__rosidl_typesupport_introspection_c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/amr_msgs_s__rosidl_typesupport_introspection_c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/CMakeFiles 40
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/CMakeFiles 41
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/amr_msgs_s__rosidl_typesupport_introspection_c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/CMakeFiles 0
 .PHONY : CMakeFiles/amr_msgs_s__rosidl_typesupport_introspection_c.dir/rule
@@ -587,18 +606,18 @@ CMakeFiles/amr_msgs_s__rosidl_typesupport_introspection_c.dir/clean:
 # Target rules for target CMakeFiles/amr_msgs_s__rosidl_typesupport_c.dir
 
 # All Build rule for target.
-CMakeFiles/amr_msgs_s__rosidl_typesupport_c.dir/all: CMakeFiles/amr_msgs__rosidl_generator_py.dir/all
-CMakeFiles/amr_msgs_s__rosidl_typesupport_c.dir/all: amr_msgs__py/CMakeFiles/amr_msgs__py.dir/all
 CMakeFiles/amr_msgs_s__rosidl_typesupport_c.dir/all: CMakeFiles/amr_msgs__rosidl_generator_c.dir/all
 CMakeFiles/amr_msgs_s__rosidl_typesupport_c.dir/all: CMakeFiles/amr_msgs__rosidl_typesupport_c.dir/all
+CMakeFiles/amr_msgs_s__rosidl_typesupport_c.dir/all: CMakeFiles/amr_msgs__rosidl_generator_py.dir/all
+CMakeFiles/amr_msgs_s__rosidl_typesupport_c.dir/all: amr_msgs__py/CMakeFiles/amr_msgs__py.dir/all
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_msgs_s__rosidl_typesupport_c.dir/build.make CMakeFiles/amr_msgs_s__rosidl_typesupport_c.dir/depend
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/amr_msgs_s__rosidl_typesupport_c.dir/build.make CMakeFiles/amr_msgs_s__rosidl_typesupport_c.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/cayo-sousa/ws_ld90_sim/build/amr_msgs/CMakeFiles --progress-num=39,40 "Built target amr_msgs_s__rosidl_typesupport_c"
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/cayo-sousa/ws_ld90_sim/build/amr_msgs/CMakeFiles --progress-num=40,41 "Built target amr_msgs_s__rosidl_typesupport_c"
 .PHONY : CMakeFiles/amr_msgs_s__rosidl_typesupport_c.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/amr_msgs_s__rosidl_typesupport_c.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/CMakeFiles 40
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/CMakeFiles 41
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/amr_msgs_s__rosidl_typesupport_c.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/CMakeFiles 0
 .PHONY : CMakeFiles/amr_msgs_s__rosidl_typesupport_c.dir/rule
@@ -624,7 +643,7 @@ amr_msgs__py/CMakeFiles/amr_msgs__py.dir/all: CMakeFiles/amr_msgs.dir/all
 
 # Build rule for subdir invocation for target.
 amr_msgs__py/CMakeFiles/amr_msgs__py.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/CMakeFiles 35
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/CMakeFiles 36
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/amr_msgs__py/CMakeFiles/amr_msgs__py.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/CMakeFiles 0
 .PHONY : amr_msgs__py/CMakeFiles/amr_msgs__py.dir/rule
@@ -637,6 +656,32 @@ amr_msgs__py: amr_msgs__py/CMakeFiles/amr_msgs__py.dir/rule
 amr_msgs__py/CMakeFiles/amr_msgs__py.dir/clean:
 	$(MAKE) $(MAKESILENT) -f /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/amr_msgs__py/CMakeFiles/amr_msgs__py.dir/build.make /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/amr_msgs__py/CMakeFiles/amr_msgs__py.dir/clean
 .PHONY : amr_msgs__py/CMakeFiles/amr_msgs__py.dir/clean
+
+#=============================================================================
+# Target rules for target /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/amr_msgs__rs/CMakeFiles/amr_msgs__rs.dir
+
+# All Build rule for target.
+amr_msgs__rs/CMakeFiles/amr_msgs__rs.dir/all:
+	$(MAKE) $(MAKESILENT) -f /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/amr_msgs__rs/CMakeFiles/amr_msgs__rs.dir/build.make /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/amr_msgs__rs/CMakeFiles/amr_msgs__rs.dir/depend
+	$(MAKE) $(MAKESILENT) -f /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/amr_msgs__rs/CMakeFiles/amr_msgs__rs.dir/build.make /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/amr_msgs__rs/CMakeFiles/amr_msgs__rs.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir=/home/cayo-sousa/ws_ld90_sim/build/amr_msgs/CMakeFiles --progress-num=39 "Built target amr_msgs__rs"
+.PHONY : amr_msgs__rs/CMakeFiles/amr_msgs__rs.dir/all
+
+# Build rule for subdir invocation for target.
+amr_msgs__rs/CMakeFiles/amr_msgs__rs.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/CMakeFiles 1
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/amr_msgs__rs/CMakeFiles/amr_msgs__rs.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/CMakeFiles 0
+.PHONY : amr_msgs__rs/CMakeFiles/amr_msgs__rs.dir/rule
+
+# Convenience name for target.
+amr_msgs__rs: amr_msgs__rs/CMakeFiles/amr_msgs__rs.dir/rule
+.PHONY : amr_msgs__rs
+
+# clean rule for target.
+amr_msgs__rs/CMakeFiles/amr_msgs__rs.dir/clean:
+	$(MAKE) $(MAKESILENT) -f /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/amr_msgs__rs/CMakeFiles/amr_msgs__rs.dir/build.make /home/cayo-sousa/ws_ld90_sim/build/amr_msgs/amr_msgs__rs/CMakeFiles/amr_msgs__rs.dir/clean
+.PHONY : amr_msgs__rs/CMakeFiles/amr_msgs__rs.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

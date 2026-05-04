@@ -1,4 +1,0 @@
-Invoking command in '/home/cayo-sousa/ws_ld90_sim/build/libaria': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cayo-sousa/ws_ld90_sim/build/libaria -- -j12 -l12
-Invoked command in '/home/cayo-sousa/ws_ld90_sim/build/libaria' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cayo-sousa/ws_ld90_sim/build/libaria -- -j12 -l12
-Invoking command in '/home/cayo-sousa/ws_ld90_sim/build/libaria': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cayo-sousa/ws_ld90_sim/build/libaria
-Invoked command in '/home/cayo-sousa/ws_ld90_sim/build/libaria' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cayo-sousa/ws_ld90_sim/build/libaria

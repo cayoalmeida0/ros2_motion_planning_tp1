@@ -1,0 +1,243 @@
+[0.013s] Invoking command in '/home/cayo-sousa/ws_ld90_sim/build/amr_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy:/home/cayo-sousa/ws_ld90_sim/install/ld90_gz DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs
+[0.089s] -- The C compiler identification is GNU 13.3.0
+[0.175s] -- The CXX compiler identification is GNU 13.3.0
+[0.189s] -- Detecting C compiler ABI info
+[0.263s] -- Detecting C compiler ABI info - done
+[0.273s] -- Check for working C compiler: /usr/bin/cc - skipped
+[0.274s] -- Detecting C compile features
+[0.274s] -- Detecting C compile features - done
+[0.281s] -- Detecting CXX compiler ABI info
+[0.362s] -- Detecting CXX compiler ABI info - done
+[0.372s] -- Check for working CXX compiler: /usr/bin/c++ - skipped
+[0.372s] -- Detecting CXX compile features
+[0.372s] -- Detecting CXX compile features - done
+[0.375s] -- Found ament_cmake: 2.5.6 (/opt/ros/jazzy/share/ament_cmake/cmake)
+[0.509s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.564s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.621s] -- Found action_msgs: 2.0.3 (/opt/ros/jazzy/share/action_msgs/cmake)
+[0.770s] -- Found rosidl_generator_c: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_c/cmake)
+[0.818s] -- Found rosidl_generator_cpp: 4.6.7 (/opt/ros/jazzy/share/rosidl_generator_cpp/cmake)
+[0.885s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.964s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.217s] -- Found rosidl_default_generators: 1.6.0 (/opt/ros/jazzy/share/rosidl_default_generators/cmake)
+[1.292s] -- Found rosidl_adapter: 4.6.7 (/opt/ros/jazzy/share/rosidl_adapter/cmake)
+[2.621s] -- Found ament_cmake_ros: 0.12.0 (/opt/ros/jazzy/share/ament_cmake_ros/cmake)
+[4.087s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[4.594s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[4.607s] -- Found python_cmake_module: 0.11.1 (/opt/ros/jazzy/share/python_cmake_module/cmake)
+[4.878s] -- Found PythonExtra: /usr/bin/python3  
+[5.992s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[6.189s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[6.208s] -- Found ament_lint_auto: 0.17.5 (/opt/ros/jazzy/share/ament_lint_auto/cmake)
+[6.344s] -- Added test 'copyright' to check source files copyright and LICENSE
+[6.351s] -- Added test 'lint_cmake' to check CMake code style
+[6.360s] -- Added test 'xmllint' to check XML markup files
+[6.370s] -- Configuring done (6.3s)
+[6.472s] -- Generating done (0.1s)
+[6.503s] -- Build files have been written to: /home/cayo-sousa/ws_ld90_sim/build/amr_msgs
+[6.528s] Invoked command in '/home/cayo-sousa/ws_ld90_sim/build/amr_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy:/home/cayo-sousa/ws_ld90_sim/install/ld90_gz DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake /home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_msgs -DAMENT_CMAKE_SYMLINK_INSTALL=1 -DCMAKE_INSTALL_PREFIX=/home/cayo-sousa/ws_ld90_sim/install/amr_msgs
+[6.529s] Invoking command in '/home/cayo-sousa/ws_ld90_sim/build/amr_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy:/home/cayo-sousa/ws_ld90_sim/install/ld90_gz DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cayo-sousa/ws_ld90_sim/build/amr_msgs -- -j12 -l12
+[6.648s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[6.648s] [  4%] [34m[1mGenerating Rust code for ROS interfaces[0m
+[6.650s] [  4%] Built target ament_cmake_python_symlink_amr_msgs
+[7.209s] [  4%] Built target amr_msgs__rosidl_generator_type_description
+[7.238s] [  6%] [34m[1mGenerating C code for ROS interfaces[0m
+[7.271s] [  6%] Built target amr_msgs__rs
+[7.279s] running egg_info
+[7.281s] creating amr_msgs.egg-info
+[7.285s] [  8%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[7.324s] writing amr_msgs.egg-info/PKG-INFO
+[7.324s] writing dependency_links to amr_msgs.egg-info/dependency_links.txt
+[7.326s] writing top-level names to amr_msgs.egg-info/top_level.txt
+[7.326s] writing manifest file 'amr_msgs.egg-info/SOURCES.txt'
+[7.457s] reading manifest file 'amr_msgs.egg-info/SOURCES.txt'
+[7.458s] writing manifest file 'amr_msgs.egg-info/SOURCES.txt'
+[7.533s] [  8%] Built target ament_cmake_python_build_amr_msgs_egg
+[8.009s] [ 11%] [32mBuilding C object CMakeFiles/amr_msgs__rosidl_generator_c.dir/rosidl_generator_c/amr_msgs/msg/detail/location__description.c.o[0m
+[8.011s] [ 13%] [32mBuilding C object CMakeFiles/amr_msgs__rosidl_generator_c.dir/rosidl_generator_c/amr_msgs/msg/detail/location__functions.c.o[0m
+[8.019s] [ 15%] [32mBuilding C object CMakeFiles/amr_msgs__rosidl_generator_c.dir/rosidl_generator_c/amr_msgs/msg/detail/location__type_support.c.o[0m
+[8.020s] [ 17%] [32mBuilding C object CMakeFiles/amr_msgs__rosidl_generator_c.dir/rosidl_generator_c/amr_msgs/msg/detail/status__type_support.c.o[0m
+[8.023s] [ 20%] [32mBuilding C object CMakeFiles/amr_msgs__rosidl_generator_c.dir/rosidl_generator_c/amr_msgs/msg/detail/status__description.c.o[0m
+[8.026s] [ 22%] [32mBuilding C object CMakeFiles/amr_msgs__rosidl_generator_c.dir/rosidl_generator_c/amr_msgs/msg/detail/status__functions.c.o[0m
+[8.036s] [ 22%] Built target amr_msgs__cpp
+[8.172s] [ 24%] [32m[1mLinking C shared library libamr_msgs__rosidl_generator_c.so[0m
+[8.269s] [ 24%] Built target amr_msgs__rosidl_generator_c
+[8.299s] [ 26%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[8.299s] [ 31%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[8.299s] [ 28%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[8.302s] [ 33%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[8.314s] [ 37%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[8.314s] [ 37%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[8.938s] [ 40%] [32mBuilding CXX object CMakeFiles/amr_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/amr_msgs/msg/location__type_support.cpp.o[0m
+[8.940s] [ 42%] [32mBuilding CXX object CMakeFiles/amr_msgs__rosidl_typesupport_c.dir/rosidl_typesupport_c/amr_msgs/msg/status__type_support.cpp.o[0m
+[9.015s] [ 44%] [32mBuilding CXX object CMakeFiles/amr_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/amr_msgs/msg/detail/location__type_support.cpp.o[0m
+[9.015s] [ 46%] [32mBuilding CXX object CMakeFiles/amr_msgs__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/amr_msgs/msg/detail/status__type_support.cpp.o[0m
+[9.031s] [ 48%] [32mBuilding CXX object CMakeFiles/amr_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/amr_msgs/msg/status__type_support.cpp.o[0m
+[9.041s] [ 51%] [32mBuilding CXX object CMakeFiles/amr_msgs__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/amr_msgs/msg/location__type_support.cpp.o[0m
+[9.098s] [ 53%] [32m[1mLinking CXX shared library libamr_msgs__rosidl_typesupport_c.so[0m
+[9.122s] [ 55%] [32mBuilding C object CMakeFiles/amr_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/amr_msgs/msg/detail/status__type_support.c.o[0m
+[9.125s] [ 57%] [32mBuilding C object CMakeFiles/amr_msgs__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/amr_msgs/msg/detail/location__type_support.c.o[0m
+[9.254s] [ 57%] Built target amr_msgs__rosidl_typesupport_c
+[9.287s] [ 60%] [32m[1mLinking C shared library libamr_msgs__rosidl_typesupport_introspection_c.so[0m
+[9.337s] [ 62%] [32mBuilding CXX object CMakeFiles/amr_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/amr_msgs/msg/detail/status__type_support_c.cpp.o[0m
+[9.347s] [ 64%] [32mBuilding CXX object CMakeFiles/amr_msgs__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/amr_msgs/msg/detail/location__type_support_c.cpp.o[0m
+[9.376s] [ 66%] [32mBuilding CXX object CMakeFiles/amr_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/amr_msgs/msg/detail/dds_fastrtps/location__type_support.cpp.o[0m
+[9.388s] [ 68%] [32mBuilding CXX object CMakeFiles/amr_msgs__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/amr_msgs/msg/detail/dds_fastrtps/status__type_support.cpp.o[0m
+[9.404s] [ 68%] Built target amr_msgs__rosidl_typesupport_introspection_c
+[9.966s] [ 71%] [32m[1mLinking CXX shared library libamr_msgs__rosidl_typesupport_cpp.so[0m
+[10.020s] [ 73%] [32m[1mLinking CXX shared library libamr_msgs__rosidl_typesupport_introspection_cpp.so[0m
+[10.093s] [ 73%] Built target amr_msgs__rosidl_typesupport_cpp
+[10.231s] [ 73%] Built target amr_msgs__rosidl_typesupport_introspection_cpp
+[10.488s] [ 75%] [32m[1mLinking CXX shared library libamr_msgs__rosidl_typesupport_fastrtps_c.so[0m
+[10.693s] [ 75%] Built target amr_msgs__rosidl_typesupport_fastrtps_c
+[10.759s] [ 77%] [32m[1mLinking CXX shared library libamr_msgs__rosidl_typesupport_fastrtps_cpp.so[0m
+[10.933s] [ 77%] Built target amr_msgs__rosidl_typesupport_fastrtps_cpp
+[10.991s] [ 77%] Built target amr_msgs
+[11.051s] [ 80%] [34m[1mGenerating Python code for ROS interfaces[0m
+[11.915s] [ 80%] Built target amr_msgs__py
+[11.978s] [ 82%] [32mBuilding C object CMakeFiles/amr_msgs__rosidl_generator_py.dir/rosidl_generator_py/amr_msgs/msg/_status_s.c.o[0m
+[11.979s] [ 84%] [32mBuilding C object CMakeFiles/amr_msgs__rosidl_generator_py.dir/rosidl_generator_py/amr_msgs/msg/_location_s.c.o[0m
+[12.367s] [ 86%] [32m[1mLinking C shared library libamr_msgs__rosidl_generator_py.so[0m
+[12.471s] [ 86%] Built target amr_msgs__rosidl_generator_py
+[12.507s] [ 88%] [32mBuilding C object CMakeFiles/amr_msgs_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/amr_msgs/_amr_msgs_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[12.544s] [ 91%] [32mBuilding C object CMakeFiles/amr_msgs_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/amr_msgs/_amr_msgs_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[12.556s] [ 93%] [32mBuilding C object CMakeFiles/amr_msgs_s__rosidl_typesupport_c.dir/rosidl_generator_py/amr_msgs/_amr_msgs_s.ep.rosidl_typesupport_c.c.o[0m
+[12.774s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/amr_msgs/amr_msgs_s__rosidl_typesupport_fastrtps_c.so[0m
+[12.802s] [ 97%] [32m[1mLinking C shared module rosidl_generator_py/amr_msgs/amr_msgs_s__rosidl_typesupport_introspection_c.so[0m
+[12.837s] [100%] [32m[1mLinking C shared module rosidl_generator_py/amr_msgs/amr_msgs_s__rosidl_typesupport_c.so[0m
+[12.841s] [100%] Built target amr_msgs_s__rosidl_typesupport_fastrtps_c
+[12.892s] [100%] Built target amr_msgs_s__rosidl_typesupport_introspection_c
+[12.914s] [100%] Built target amr_msgs_s__rosidl_typesupport_c
+[12.932s] Invoked command in '/home/cayo-sousa/ws_ld90_sim/build/amr_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy:/home/cayo-sousa/ws_ld90_sim/install/ld90_gz DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/cayo-sousa/ws_ld90_sim/build/amr_msgs -- -j12 -l12
+[12.934s] Invoking command in '/home/cayo-sousa/ws_ld90_sim/build/amr_msgs': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy:/home/cayo-sousa/ws_ld90_sim/install/ld90_gz DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cayo-sousa/ws_ld90_sim/build/amr_msgs
+[12.946s] -- Install configuration: ""
+[12.947s] -- Execute custom install script
+[12.947s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/ament_index/resource_index/rosidl_interfaces/amr_msgs
+[12.961s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/msg/Location.json
+[12.974s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/msg/Status.json
+[12.988s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/include/amr_msgs/amr_msgs/msg/detail/location__functions.h
+[13.002s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/include/amr_msgs/amr_msgs/msg/detail/location__struct.h
+[13.014s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/include/amr_msgs/amr_msgs/msg/detail/location__type_support.h
+[13.026s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/include/amr_msgs/amr_msgs/msg/detail/status__functions.h
+[13.039s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/include/amr_msgs/amr_msgs/msg/detail/status__struct.h
+[13.052s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/include/amr_msgs/amr_msgs/msg/detail/status__type_support.h
+[13.067s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/include/amr_msgs/amr_msgs/msg/location.h
+[13.080s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/include/amr_msgs/amr_msgs/msg/rosidl_generator_c__visibility_control.h
+[13.091s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/include/amr_msgs/amr_msgs/msg/status.h
+[13.112s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/environment/library_path.sh
+[13.133s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/environment/library_path.dsv
+[13.163s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/include/amr_msgs/amr_msgs/msg/detail/location__rosidl_typesupport_fastrtps_c.h
+[13.187s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/include/amr_msgs/amr_msgs/msg/detail/status__rosidl_typesupport_fastrtps_c.h
+[13.208s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/include/amr_msgs/amr_msgs/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[13.238s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/include/amr_msgs/amr_msgs/msg/detail/location__builder.hpp
+[13.264s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/include/amr_msgs/amr_msgs/msg/detail/location__struct.hpp
+[13.280s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/include/amr_msgs/amr_msgs/msg/detail/location__traits.hpp
+[13.293s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/include/amr_msgs/amr_msgs/msg/detail/location__type_support.hpp
+[13.306s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/include/amr_msgs/amr_msgs/msg/detail/status__builder.hpp
+[13.321s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/include/amr_msgs/amr_msgs/msg/detail/status__struct.hpp
+[13.330s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/include/amr_msgs/amr_msgs/msg/detail/status__traits.hpp
+[13.351s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/include/amr_msgs/amr_msgs/msg/detail/status__type_support.hpp
+[13.367s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/include/amr_msgs/amr_msgs/msg/location.hpp
+[13.379s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/include/amr_msgs/amr_msgs/msg/rosidl_generator_cpp__visibility_control.hpp
+[13.392s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/include/amr_msgs/amr_msgs/msg/status.hpp
+[13.405s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/include/amr_msgs/amr_msgs/msg/detail/location__rosidl_typesupport_fastrtps_cpp.hpp
+[13.418s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/include/amr_msgs/amr_msgs/msg/detail/status__rosidl_typesupport_fastrtps_cpp.hpp
+[13.433s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/include/amr_msgs/amr_msgs/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[13.443s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/include/amr_msgs/amr_msgs/msg/detail/location__rosidl_typesupport_introspection_c.h
+[13.456s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/include/amr_msgs/amr_msgs/msg/detail/status__rosidl_typesupport_introspection_c.h
+[13.469s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/include/amr_msgs/amr_msgs/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[13.482s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/include/amr_msgs/amr_msgs/msg/detail/location__rosidl_typesupport_introspection_cpp.hpp
+[13.495s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/include/amr_msgs/amr_msgs/msg/detail/status__rosidl_typesupport_introspection_cpp.hpp
+[13.508s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/environment/pythonpath.sh
+[13.521s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/environment/pythonpath.dsv
+[13.536s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages/amr_msgs-0.0.0-py3.12.egg-info/PKG-INFO
+[13.551s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages/amr_msgs-0.0.0-py3.12.egg-info/SOURCES.txt
+[13.563s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages/amr_msgs-0.0.0-py3.12.egg-info/dependency_links.txt
+[13.576s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages/amr_msgs-0.0.0-py3.12.egg-info/top_level.txt
+[13.590s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages/amr_msgs/__init__.py
+[13.604s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages/amr_msgs/_amr_msgs_s.ep.rosidl_typesupport_c.c
+[13.625s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages/amr_msgs/_amr_msgs_s.ep.rosidl_typesupport_fastrtps_c.c
+[13.640s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages/amr_msgs/_amr_msgs_s.ep.rosidl_typesupport_introspection_c.c
+[13.652s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages/amr_msgs/amr_msgs_s__rosidl_typesupport_c.so
+[13.666s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages/amr_msgs/amr_msgs_s__rosidl_typesupport_fastrtps_c.so
+[13.679s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages/amr_msgs/amr_msgs_s__rosidl_typesupport_introspection_c.so
+[13.696s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages/amr_msgs/msg/__init__.py
+[13.710s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages/amr_msgs/msg/_location.py
+[13.726s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages/amr_msgs/msg/_location_s.c
+[13.736s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages/amr_msgs/msg/_status.py
+[13.749s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages/amr_msgs/msg/_status_s.c
+[13.763s] -- Up-to-date symlink: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages/amr_msgs/amr_msgs_s__rosidl_typesupport_fastrtps_c.so
+[13.764s] -- Up-to-date symlink: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages/amr_msgs/amr_msgs_s__rosidl_typesupport_introspection_c.so
+[13.764s] -- Up-to-date symlink: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages/amr_msgs/amr_msgs_s__rosidl_typesupport_c.so
+[13.765s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/ament_index/resource_index/rust_packages/amr_msgs
+[13.778s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/rust/Cargo.toml
+[13.796s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/rust/build.rs
+[13.809s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/rust/src/lib.rs
+[13.823s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/rust/src/msg.rs
+[13.837s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/rust/src/msg/rmw.rs
+[13.850s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/msg/Location.idl
+[13.866s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/msg/Status.idl
+[13.876s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/msg/Location.msg
+[13.892s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/msg/Status.msg
+[13.905s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/ament_index/resource_index/package_run_dependencies/amr_msgs
+[13.918s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/ament_index/resource_index/parent_prefix_path/amr_msgs
+[13.930s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/environment/ament_prefix_path.sh
+[13.945s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/environment/ament_prefix_path.dsv
+[13.956s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/environment/path.sh
+[13.975s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/environment/path.dsv
+[13.995s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/local_setup.bash
+[14.022s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/local_setup.sh
+[14.033s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/local_setup.zsh
+[14.043s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/local_setup.dsv
+[14.055s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/package.dsv
+[14.067s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/ament_index/resource_index/packages/amr_msgs
+[14.089s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/cmake/rosidl_cmake-extras.cmake
+[14.115s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/cmake/ament_cmake_export_include_directories-extras.cmake
+[14.140s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/cmake/ament_cmake_export_libraries-extras.cmake
+[14.167s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/cmake/ament_cmake_export_targets-extras.cmake
+[14.180s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[14.192s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/cmake/ament_cmake_export_dependencies-extras.cmake
+[14.206s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[14.219s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/cmake/amr_msgsConfig.cmake
+[14.236s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/cmake/amr_msgsConfig-version.cmake
+[14.246s] -- Symlinking: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/package.xml
+[14.260s] -- Installing: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/libamr_msgs__rosidl_generator_c.so
+[14.261s] -- Set non-toolchain portion of runtime path of "/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/libamr_msgs__rosidl_generator_c.so" to ""
+[14.262s] -- Installing: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/libamr_msgs__rosidl_typesupport_fastrtps_c.so
+[14.262s] -- Set non-toolchain portion of runtime path of "/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/libamr_msgs__rosidl_typesupport_fastrtps_c.so" to ""
+[14.262s] -- Installing: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/libamr_msgs__rosidl_typesupport_fastrtps_cpp.so
+[14.263s] -- Set non-toolchain portion of runtime path of "/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/libamr_msgs__rosidl_typesupport_fastrtps_cpp.so" to ""
+[14.263s] -- Installing: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/libamr_msgs__rosidl_typesupport_introspection_c.so
+[14.264s] -- Set non-toolchain portion of runtime path of "/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/libamr_msgs__rosidl_typesupport_introspection_c.so" to ""
+[14.264s] -- Installing: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/libamr_msgs__rosidl_typesupport_c.so
+[14.265s] -- Set non-toolchain portion of runtime path of "/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/libamr_msgs__rosidl_typesupport_c.so" to ""
+[14.265s] -- Installing: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/libamr_msgs__rosidl_typesupport_introspection_cpp.so
+[14.266s] -- Set non-toolchain portion of runtime path of "/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/libamr_msgs__rosidl_typesupport_introspection_cpp.so" to ""
+[14.267s] -- Installing: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/libamr_msgs__rosidl_typesupport_cpp.so
+[14.267s] -- Set non-toolchain portion of runtime path of "/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/libamr_msgs__rosidl_typesupport_cpp.so" to ""
+[14.337s] Listing '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages/amr_msgs'...
+[14.337s] Compiling '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages/amr_msgs/__init__.py'...
+[14.337s] Listing '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages/amr_msgs/msg'...
+[14.337s] Compiling '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages/amr_msgs/msg/__init__.py'...
+[14.337s] Compiling '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages/amr_msgs/msg/_location.py'...
+[14.338s] Compiling '/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/python3.12/site-packages/amr_msgs/msg/_status.py'...
+[14.347s] -- Installing: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/libamr_msgs__rosidl_generator_py.so
+[14.348s] -- Set non-toolchain portion of runtime path of "/home/cayo-sousa/ws_ld90_sim/install/amr_msgs/lib/libamr_msgs__rosidl_generator_py.so" to ""
+[14.349s] -- Installing: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/cmake/export_amr_msgs__rosidl_generator_cExport.cmake
+[14.349s] -- Installing: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/cmake/export_amr_msgs__rosidl_generator_cExport-noconfig.cmake
+[14.349s] -- Installing: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/cmake/export_amr_msgs__rosidl_typesupport_fastrtps_cExport.cmake
+[14.350s] -- Installing: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/cmake/export_amr_msgs__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[14.350s] -- Installing: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/cmake/export_amr_msgs__rosidl_generator_cppExport.cmake
+[14.351s] -- Installing: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/cmake/export_amr_msgs__rosidl_typesupport_fastrtps_cppExport.cmake
+[14.351s] -- Installing: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/cmake/export_amr_msgs__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[14.351s] -- Installing: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/cmake/amr_msgs__rosidl_typesupport_introspection_cExport.cmake
+[14.352s] -- Installing: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/cmake/amr_msgs__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[14.352s] -- Installing: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/cmake/amr_msgs__rosidl_typesupport_cExport.cmake
+[14.352s] -- Installing: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/cmake/amr_msgs__rosidl_typesupport_cExport-noconfig.cmake
+[14.353s] -- Installing: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/cmake/amr_msgs__rosidl_typesupport_introspection_cppExport.cmake
+[14.353s] -- Installing: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/cmake/amr_msgs__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[14.353s] -- Installing: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/cmake/amr_msgs__rosidl_typesupport_cppExport.cmake
+[14.354s] -- Installing: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/cmake/amr_msgs__rosidl_typesupport_cppExport-noconfig.cmake
+[14.354s] -- Installing: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/cmake/export_amr_msgs__rosidl_generator_pyExport.cmake
+[14.357s] -- Installing: /home/cayo-sousa/ws_ld90_sim/install/amr_msgs/share/amr_msgs/cmake/export_amr_msgs__rosidl_generator_pyExport-noconfig.cmake
+[14.358s] Invoked command in '/home/cayo-sousa/ws_ld90_sim/build/amr_msgs' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/opt/ros/jazzy:/home/cayo-sousa/ws_ld90_sim/install/ld90_gz DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/cayo-sousa/ws_ld90_sim/build/amr_msgs

@@ -369,6 +369,12 @@ include("/home/cayo-sousa/ws_ld90_sim/build/amr_msgs/ament_cmake_symlink_install
 # install("TARGETS" "amr_msgs_s__rosidl_typesupport_c" "DESTINATION" "lib/python3.12/site-packages/amr_msgs")
 include("/home/cayo-sousa/ws_ld90_sim/build/amr_msgs/ament_cmake_symlink_install_targets_2_${CMAKE_INSTALL_CONFIG_NAME}.cmake")
 
+# install(FILES "/home/cayo-sousa/ws_ld90_sim/build/amr_msgs/ament_cmake_index/share/ament_index/resource_index/rust_packages/amr_msgs" "DESTINATION" "share/ament_index/resource_index/rust_packages")
+ament_cmake_symlink_install_files("/home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_msgs" FILES "/home/cayo-sousa/ws_ld90_sim/build/amr_msgs/ament_cmake_index/share/ament_index/resource_index/rust_packages/amr_msgs" "DESTINATION" "share/ament_index/resource_index/rust_packages")
+
+# install(DIRECTORY "/home/cayo-sousa/ws_ld90_sim/build/amr_msgs/rosidl_generator_rs/amr_msgs/rust" "DESTINATION" "share/amr_msgs")
+ament_cmake_symlink_install_directory("/home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_msgs" DIRECTORY "/home/cayo-sousa/ws_ld90_sim/build/amr_msgs/rosidl_generator_rs/amr_msgs/rust" "DESTINATION" "share/amr_msgs")
+
 # install(FILES "/home/cayo-sousa/ws_ld90_sim/build/amr_msgs/rosidl_adapter/amr_msgs/msg/Location.idl" "DESTINATION" "share/amr_msgs/msg")
 ament_cmake_symlink_install_files("/home/cayo-sousa/ws_ld90_sim/src/omron_amr/amr_msgs" FILES "/home/cayo-sousa/ws_ld90_sim/build/amr_msgs/rosidl_adapter/amr_msgs/msg/Location.idl" "DESTINATION" "share/amr_msgs/msg")
 

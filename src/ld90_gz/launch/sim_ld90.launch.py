@@ -2,7 +2,7 @@ import os
 
 from ament_index_python.packages import get_package_share_directory
 from launch import LaunchDescription
-from launch.actions import IncludeLaunchDescription, DeclareLaunchArgument
+from launch.actions import IncludeLaunchDescription, DeclareLaunchArgument, SetEnvironmentVariable
 from launch.launch_description_sources import PythonLaunchDescriptionSource
 from launch.substitutions import LaunchConfiguration
 from launch_ros.actions import Node
@@ -11,12 +11,18 @@ from launch_ros.actions import Node
 def generate_launch_description():
     pkg_ld90_gz = get_package_share_directory('ld90_gz')
     pkg_ros_gz_sim = get_package_share_directory('ros_gz_sim')
+    pkg_amr_description = get_package_share_directory('amr_description')
 
     world = os.path.join(pkg_ld90_gz, 'worlds', 'empty.sdf')
     model_file = os.path.join(pkg_ld90_gz, 'models', 'ld90_gz.sdf')
     bridge_file = os.path.join(pkg_ld90_gz, 'config', 'bridge.yaml')
 
     use_sim_time = LaunchConfiguration('use_sim_time')
+
+    set_gz_resource_path = SetEnvironmentVariable(
+        name='GZ_SIM_RESOURCE_PATH',
+        value=os.path.dirname(pkg_amr_description)
+    )
 
     gz_sim = IncludeLaunchDescription(
         PythonLaunchDescriptionSource(
@@ -58,6 +64,7 @@ def generate_launch_description():
             default_value='true',
             description='Use simulation time'
         ),
+        set_gz_resource_path,
         gz_sim,
         spawn,
         bridge
