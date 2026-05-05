@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/libaria_hardware_test_runner.dir/tests/libariaHardwareTestRunner.cpp.o -o libaria_hardware_test_runner  -Wl,-rpath,/home/cayo-sousa/ws_ld90_sim/build/libaria libAria.so 

@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/functorExample.dir/examples/functorExample.cpp.o -o functorExample  -Wl,-rpath,/home/cayo-sousa/ws_ld90_sim/build/libaria libAria.so 

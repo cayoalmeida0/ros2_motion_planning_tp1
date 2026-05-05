@@ -1,1 +1,0 @@
-/home/cayo-sousa/ws_ld90_sim/build/amr_ros/ament_cmake_core/amr_rosConfig.cmake

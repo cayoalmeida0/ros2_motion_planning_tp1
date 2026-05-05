@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/angleFixTest.dir/tests/angleFixTest.cpp.o -o angleFixTest  -Wl,-rpath,/home/cayo-sousa/ws_ld90_sim/build/libaria libAria.so 

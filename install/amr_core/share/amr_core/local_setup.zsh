@@ -1,1 +1,0 @@
-/home/cayo-sousa/ws_ld90_sim/build/amr_core/ament_cmake_environment_hooks/local_setup.zsh

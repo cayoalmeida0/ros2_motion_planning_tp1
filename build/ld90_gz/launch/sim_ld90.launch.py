@@ -1,1 +1,0 @@
-/home/cayo-sousa/ws_ld90_sim/src/ld90_gz/launch/sim_ld90.launch.py

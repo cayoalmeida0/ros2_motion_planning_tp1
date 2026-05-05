@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/lineTest.dir/tests/lineTest.cpp.o -o lineTest  -Wl,-rpath,/home/cayo-sousa/ws_ld90_sim/build/libaria libAria.so 

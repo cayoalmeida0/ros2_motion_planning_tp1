@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/threadExample.dir/examples/threadExample.cpp.o -o threadExample  -Wl,-rpath,/home/cayo-sousa/ws_ld90_sim/build/libaria libAria.so 

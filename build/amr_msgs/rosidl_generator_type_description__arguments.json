@@ -1,8 +1,0 @@
-{
-  "package_name": "amr_msgs",
-  "output_dir": "/home/cayo-sousa/ws_ld90_sim/build/amr_msgs/rosidl_generator_type_description/amr_msgs",
-  "idl_tuples": [
-    "/home/cayo-sousa/ws_ld90_sim/build/amr_msgs/rosidl_adapter/amr_msgs:msg/Location.idl",
-    "/home/cayo-sousa/ws_ld90_sim/build/amr_msgs/rosidl_adapter/amr_msgs:msg/Status.idl"
-  ]
-}

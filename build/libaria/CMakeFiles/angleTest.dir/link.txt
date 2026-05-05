@@ -1,1 +1,0 @@
-/usr/bin/c++ CMakeFiles/angleTest.dir/tests/angleTest.cpp.o -o angleTest  -Wl,-rpath,/home/cayo-sousa/ws_ld90_sim/build/libaria libAria.so 
