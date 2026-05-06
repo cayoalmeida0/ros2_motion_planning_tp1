@@ -29,6 +29,7 @@ setup(
         'console_scripts': [
         'fl_controller = ld90_gz.fl_controller:main',
         'tangent_bug = ld90_gz.tangent_bug:main',
+        'curve_follower = ld90_gz.curve_follower:main',
         ],
     },
 )
