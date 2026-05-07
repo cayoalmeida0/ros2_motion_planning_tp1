@@ -119,10 +119,6 @@ class CurveFollowerNode(Node):
         self.vel_publisher.publish(cmd)
 
     def inverse_fl(self, vx_h, vy_h):
-        """
-        Transforma as velocidades desejadas do ponto h (vx_h, vy_h)
-        em comandos de velocidade para o robô (v, omega).
-        """
         theta = self.pose.yaw
         l = FEEDBACK_LINEARIZATION_L
         v = math.cos(theta) * vx_h + math.sin(theta) * vy_h
