@@ -13,7 +13,7 @@ def generate_launch_description():
     pkg_ros_gz_sim = get_package_share_directory('ros_gz_sim')
     pkg_amr_description = get_package_share_directory('amr_description')
 
-    world = os.path.join(pkg_ld90_gz, 'worlds', 'empty.sdf')
+    world = os.path.join(pkg_ld90_gz, 'worlds', 'q4.sdf')
     model_file1 = os.path.join(pkg_ld90_gz, 'models', 'ld90_gz1.sdf')
     model_file2 = os.path.join(pkg_ld90_gz, 'models', 'ld90_gz2.sdf')
     bridge_file = os.path.join(pkg_ld90_gz, 'config', 'bridge.yaml')

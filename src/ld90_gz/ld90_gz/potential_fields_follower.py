@@ -105,34 +105,29 @@ class PFFollowerNode(Node):
         self.declare_parameter("pose_topic", "/pose")
         self.declare_parameter("neighbor_topics", [""])
 
-        # 2. Get the actual values (this pulls from your r1/r2 launch config)
         self.curve_offset = self.get_parameter("curve_offset").value
         self.vel_topic = self.get_parameter("vel_topic").value
         self.scan_topic = self.get_parameter("scan_topic").value
         self.pose_topic = self.get_parameter("pose_topic").value
         self.pose_topic_list = self.get_parameter("neighbor_topics").value
 
-        # ... initialization of classes ...
         self.pose = Pose2D()
         self.speed_trk = SpeedTracker()
         self.scan = None
 
-        # 3. Use the updated self.pose_topic variable here!
         self.create_subscription(PoseArray, self.pose_topic, self.pose_callback, 10)
         
         self.create_subscription(LaserScan, self.scan_topic, self.scan_callback, 10)
         self.vel_publisher = self.create_publisher(Twist, self.vel_topic, 10)
         
-        # Neighbor subscriptions
         self.neighbor_poses = [Pose2D() for _ in range(len(self.pose_topic_list))]
         for i, topic in enumerate(self.pose_topic_list):
-            if topic: # Avoid empty strings
-                self.create_subscription(
-                    PoseArray, 
-                    topic, 
-                    partial(self.neighbor_pose_callback, robot_index=i), 
-                    10
-                )
+            self.create_subscription(
+                PoseArray, 
+                topic, 
+                partial(self.neighbor_pose_callback, robot_index=i), 
+                10
+            )
 
         self.create_timer(0.05, self.control_loop)
 

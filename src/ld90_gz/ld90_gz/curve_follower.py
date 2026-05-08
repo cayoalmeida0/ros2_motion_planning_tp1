@@ -15,11 +15,12 @@ from geometry_msgs.msg import Twist, PoseArray
 CONTROLLER_K = 1.0
 
 FEEDBACK_LINEARIZATION_L = 0.1
-CURVE_SIZE_MULTIPLIER = 2.0
-CURVE_TIME_MULTIPLIER = 0.1
+CURVE_SIZE_MULTIPLIER = 3.0
+CURVE_TIME_MULTIPLIER = 0.2 
 
 VELOCITY_TOPIC = "/cmd_vel"
 POSE_TOPIC = "/ld90_gt_pose"
+MAX_SPEED = 1.0
 
 
 """*****************************************************************************
@@ -108,8 +109,14 @@ class CurveFollowerNode(Node):
 
     def control_loop(self):
         now_time = self.get_clock().now()
-        correction_speed = self.get_correction_fl_point_speed(now_time)
-        diff_speeds = self.inverse_fl(correction_speed[0],correction_speed[1])
+        vx_total,vy_total = self.get_correction_fl_point_speed(now_time)
+        current_magnitude = math.sqrt(vx_total**2 + vy_total**2)
+        if current_magnitude > MAX_SPEED:
+            scaling_factor = MAX_SPEED / current_magnitude
+            vx_total *= scaling_factor
+            vy_total *= scaling_factor
+
+        diff_speeds = self.inverse_fl(vx_total,vy_total)
         self.publish_vel(diff_speeds[0],diff_speeds[1])
 
     def publish_vel(self, v, w):
