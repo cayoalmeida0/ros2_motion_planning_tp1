@@ -31,6 +31,7 @@ setup(
         'tangent_bug = ld90_gz.tangent_bug:main',
         'curve_follower = ld90_gz.curve_follower:main',
         'potential_fields = ld90_gz.potential_fields:main',
+        'potential_fields_follower = ld90_gz.potential_fields_follower:main'
         ],
     },
 )
