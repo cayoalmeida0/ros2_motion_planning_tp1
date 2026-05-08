@@ -70,13 +70,13 @@
   <include>
     <uri>model://2m_wall</uri>
     <name>parede_02</name>
-    <pose>4 6 0 0 0 1.57</pose>
+    <pose>4 1 0 0 0 0</pose>
   </include>
 
   <include>
     <uri>model://2m_wall</uri>
     <name>parede_03</name>
-    <pose>8 -2 0 0 0 1.57</pose>
+    <pose>4 -2 0 0 0 1.</pose>
   </include>
 
 

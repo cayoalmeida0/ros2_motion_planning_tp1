@@ -37,15 +37,15 @@ class TangentBugNode(Node):
         self.declare_parameter("scan_topic", "/scan")
         self.declare_parameter("cmd_vel_topic", "/cmd_vel")
 
-        self.declare_parameter("v_max", 0.80)
-        self.declare_parameter("w_max", 0.6)
+        self.declare_parameter("v_max", 1.0)
+        self.declare_parameter("w_max", 0.5)
         self.declare_parameter("kp_heading", 1.5)
-        self.declare_parameter("kp_wall", 1.5)
+        self.declare_parameter("kp_wall", 1)
 
         self.declare_parameter("goal_tolerance", 0.02)
-        self.declare_parameter("front_block_distance", 1.0)
-        self.declare_parameter("wall_follow_distance", 0.5)
-        self.declare_parameter("discontinuity_threshold", 0.35)
+        self.declare_parameter("front_block_distance", 1.5)
+        self.declare_parameter("wall_follow_distance", 0.1)
+        self.declare_parameter("discontinuity_threshold", 0.4)
         self.declare_parameter("heuristic_epsilon", 0.02)
 
         self.goal_x = float(self.get_parameter("goal_x").value)
