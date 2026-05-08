@@ -12,21 +12,6 @@ from geometry_msgs.msg import Twist, PoseArray
 import numpy as np
 from sensor_msgs.msg import LaserScan
 
-"""*****************************************************************************
-* DEFINES
-*****************************************************************************"""
-CONTROLLER_K = 1.0
-
-FEEDBACK_LINEARIZATION_L = 0.3
-CURVE_SIZE_MULTIPLIER = 5.0
-CURVE_TIME_MULTIPLIER = 0.2
-
-
-ATTRACTIVE_GAIN = 1
-REPULSIVE_GAIN = 1
-REPULSIVE_THRESHOLD = 2.0
-MAX_SPEED = 1.0
-
 
 """*****************************************************************************
 * HELPER CLASSES
@@ -104,12 +89,28 @@ class PFFollowerNode(Node):
         self.declare_parameter("scan_topic", "/scan")
         self.declare_parameter("pose_topic", "/pose")
         self.declare_parameter("neighbor_topics", [""])
+        self.declare_parameter("controller_k", 1.0)
+        self.declare_parameter("feedback_linearization_l", 0.3)
+        self.declare_parameter("curve_size_multiplier", 5.0)
+        self.declare_parameter("curve_time_multiplier", 0.2)
+        self.declare_parameter("attractive_gain", 1.0)
+        self.declare_parameter("repulsive_gain", 1.0)
+        self.declare_parameter("repulsive_threshold", 2.0)
+        self.declare_parameter("max_speed", 1.0)
 
         self.curve_offset = self.get_parameter("curve_offset").value
         self.vel_topic = self.get_parameter("vel_topic").value
         self.scan_topic = self.get_parameter("scan_topic").value
         self.pose_topic = self.get_parameter("pose_topic").value
         self.pose_topic_list = self.get_parameter("neighbor_topics").value
+        self.controller_k = self.get_parameter("controller_k").value
+        self.feedback_linearization_l = self.get_parameter("feedback_linearization_l").value
+        self.curve_size_multiplier = self.get_parameter("curve_size_multiplier").value
+        self.curve_time_multiplier = self.get_parameter("curve_time_multiplier").value
+        self.attractive_gain = self.get_parameter("attractive_gain").value
+        self.repulsive_gain = self.get_parameter("repulsive_gain").value
+        self.repulsive_threshold = self.get_parameter("repulsive_threshold").value
+        self.max_speed = self.get_parameter("max_speed").value
 
         self.pose = Pose2D()
         self.speed_trk = SpeedTracker()
@@ -155,7 +156,7 @@ class PFFollowerNode(Node):
     def get_correction_fl_point_speed(self,time:Time):
         desired_speed = self.get_curve_velocity_at_time(time)
         position_error = self.get_position_error(time)
-        return tuple(a - CONTROLLER_K* b for a, b in zip(desired_speed, position_error))
+        return tuple(a - self.controller_k * b for a, b in zip(desired_speed, position_error))
 
     def get_position_error(self,time:Time):
         desired_point = self.get_curve_point_at_time(time)
@@ -172,39 +173,39 @@ class PFFollowerNode(Node):
         return (vx_error,vy_error)
 
     def get_feedback_linearization_point_position(self):
-        x = self.pose.x + FEEDBACK_LINEARIZATION_L*math.cos(self.pose.yaw)
-        y = self.pose.y + FEEDBACK_LINEARIZATION_L*math.sin(self.pose.yaw)
+        x = self.pose.x + self.feedback_linearization_l * math.cos(self.pose.yaw)
+        y = self.pose.y + self.feedback_linearization_l * math.sin(self.pose.yaw)
         return (x,y)
     
     def get_feedback_linearization_point_speed(self):
         center_vx, center_vy = self.speed_trk.get_point_speed()
-        vx = center_vx - FEEDBACK_LINEARIZATION_L * math.sin(self.pose.yaw) * self.speed_trk.get_yaw_speed()
-        vy = center_vy + FEEDBACK_LINEARIZATION_L * math.cos(self.pose.yaw) * self.speed_trk.get_yaw_speed()
+        vx = center_vx - self.feedback_linearization_l * math.sin(self.pose.yaw) * self.speed_trk.get_yaw_speed()
+        vy = center_vy + self.feedback_linearization_l * math.cos(self.pose.yaw) * self.speed_trk.get_yaw_speed()
         return (vx,vy)
 
 
     def get_curve_point_at_time(self,time:Time):
         
-        theta = time.nanoseconds/1e9 *CURVE_TIME_MULTIPLIER + self.curve_offset
+        theta = time.nanoseconds/1e9 * self.curve_time_multiplier + self.curve_offset
         sin_t = math.sin(theta)
         cos_t = math.cos(theta)
         denom = 1 + sin_t**2
 
-        x = (CURVE_SIZE_MULTIPLIER * cos_t)/denom
-        y = (CURVE_SIZE_MULTIPLIER * sin_t * cos_t)/denom
+        x = (self.curve_size_multiplier * cos_t)/denom
+        y = (self.curve_size_multiplier * sin_t * cos_t)/denom
         return (x,y)
 
     def get_curve_velocity_at_time(self, time:Time):
         
-        theta = time.nanoseconds/1e9 * CURVE_TIME_MULTIPLIER + self.curve_offset
+        theta = time.nanoseconds/1e9 * self.curve_time_multiplier + self.curve_offset
         sin_t = math.sin(theta)
         denom = 1 + sin_t**2
-        d_theta = CURVE_TIME_MULTIPLIER
+        d_theta = self.curve_time_multiplier
         
-        dx_dtheta = CURVE_SIZE_MULTIPLIER * (sin_t * (sin_t**2 - 3)) / (denom**2)
+        dx_dtheta = self.curve_size_multiplier * (sin_t * (sin_t**2 - 3)) / (denom**2)
         vx = dx_dtheta * d_theta
         
-        dy_dtheta = CURVE_SIZE_MULTIPLIER * (1 - 3 * sin_t**2) / (denom**2)
+        dy_dtheta = self.curve_size_multiplier * (1 - 3 * sin_t**2) / (denom**2)
         vy = dy_dtheta * d_theta
         return (vx, vy)
 
@@ -253,25 +254,25 @@ class PFFollowerNode(Node):
 
     def inverse_fl(self, vx_h, vy_h):
         theta = self.pose.yaw
-        l = FEEDBACK_LINEARIZATION_L
+        l = self.feedback_linearization_l
         v = math.cos(theta) * vx_h + math.sin(theta) * vy_h
         omega = (-math.sin(theta) * vx_h + math.cos(theta) * vy_h) / l
         
         return (v, omega)
 
     def get_attractive_force(self,goal):
-        fx = -ATTRACTIVE_GAIN*(self.pose.x-goal[0])
-        fy = -ATTRACTIVE_GAIN*(self.pose.y-goal[1])
+        fx = -self.attractive_gain*(self.pose.x-goal[0])
+        fy = -self.attractive_gain*(self.pose.y-goal[1])
         return (fx,fy)
 
     def get_repulsive_force_magnitute(self, dist):
         if dist < 0.01: 
             dist = 0.01
             
-        if dist > REPULSIVE_THRESHOLD:
+        if dist > self.repulsive_threshold:
             return 0.0
             
-        return REPULSIVE_GAIN * (1/dist - 1/REPULSIVE_THRESHOLD) * 1/(dist**2)
+        return self.repulsive_gain * (1/dist - 1/self.repulsive_threshold) * 1/(dist**2)
 
     def scan_callback(self, msg):
         self.scan = msg
@@ -315,8 +316,8 @@ class PFFollowerNode(Node):
             vy_total += rvy
 
         current_magnitude = math.sqrt(vx_total**2 + vy_total**2)
-        if current_magnitude > MAX_SPEED:
-            scaling_factor = MAX_SPEED / current_magnitude
+        if current_magnitude > self.max_speed:
+            scaling_factor = self.max_speed / current_magnitude
             vx_total *= scaling_factor
             vy_total *= scaling_factor
 

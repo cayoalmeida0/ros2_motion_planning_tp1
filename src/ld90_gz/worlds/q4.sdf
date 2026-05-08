@@ -69,7 +69,7 @@
       <self_collide>false</self_collide>
     </model>
     <model name='cylinder'>
-      <pose>-0.13844999670982361 7.9808802604675293 0.49999899681689419 2.9184282642814717e-19 2.0970734264145137e-19 6.2971096495911927e-21</pose>
+      <pose>-2.8514934620803851 7.7583001073047981 0.49999943794446622 -1.3041130000047322e-08 -1.8052341412127071e-08 0.096722305677201303</pose>
       <link name='cylinder_link'>
         <inertial>
           <inertia>
@@ -118,7 +118,7 @@
       <self_collide>false</self_collide>
     </model>
     <model name='cylinder_0'>
-      <pose>-1.5955910682678223 6.505730152130127 0.49999899681689419 -8.1990721341352674e-20 -3.1825487756481271e-19 4.6712717039481069e-21</pose>
+      <pose>-1.5955899953842163 4.8280792236328125 0.49999899681689419 -7.8280183232555864e-20 -3.1917255807989657e-19 3.8493772304424311e-21</pose>
       <link name='cylinder_link'>
         <inertial>
           <inertia>
@@ -167,7 +167,7 @@
       <self_collide>false</self_collide>
     </model>
     <model name='cylinder_1'>
-      <pose>0.57976698875427246 -6.6717643737792969 0.49999899681689419 7.9081004614708218e-20 -4.5306397659014768e-19 -2.7774241429890755e-20</pose>
+      <pose>-0.20623517269533934 -6.3850124440282876 0.49999943983397177 1.2552751634539555e-08 -3.0448208155823102e-08 0.35880451605716851</pose>
       <link name='cylinder_link'>
         <inertial>
           <inertia>
@@ -216,56 +216,7 @@
       <self_collide>false</self_collide>
     </model>
     <model name='cylinder_2'>
-      <pose>-1.6343588829040527 -7.5352201461791992 0.49999899681689419 3.9787329698401893e-19 -2.323543093611936e-19 -8.0350083070995841e-21</pose>
-      <link name='cylinder_link'>
-        <inertial>
-          <inertia>
-            <ixx>0.14580000000000001</ixx>
-            <ixy>0</ixy>
-            <ixz>0</ixz>
-            <iyy>0.14580000000000001</iyy>
-            <iyz>0</iyz>
-            <izz>0.125</izz>
-          </inertia>
-          <mass>1</mass>
-          <pose>0 0 0 0 0 0</pose>
-        </inertial>
-        <collision name='cylinder_collision'>
-          <geometry>
-            <cylinder>
-              <radius>0.5</radius>
-              <length>1</length>
-            </cylinder>
-          </geometry>
-          <surface>
-            <friction>
-              <ode/>
-            </friction>
-            <bounce/>
-            <contact/>
-          </surface>
-        </collision>
-        <visual name='cylinder_visual'>
-          <geometry>
-            <cylinder>
-              <radius>0.5</radius>
-              <length>1</length>
-            </cylinder>
-          </geometry>
-          <material>
-            <ambient>0.300000012 0.300000012 0.300000012 1</ambient>
-            <diffuse>0.699999988 0.699999988 0.699999988 1</diffuse>
-            <specular>1 1 1 1</specular>
-          </material>
-        </visual>
-        <pose>0 0 0 0 0 0</pose>
-        <enable_wind>false</enable_wind>
-      </link>
-      <static>false</static>
-      <self_collide>false</self_collide>
-    </model>
-    <model name='cylinder_3'>
-      <pose>-1.2983100414276123 -5.0205855369567871 0.49999899681689419 8.2105863611534914e-20 4.4009091822923592e-20 1.7540026571371388e-20</pose>
+      <pose>-2.4580550193786621 -7.5352201461791992 0.49999899681689419 4.0151729282536304e-19 -2.3196509624824265e-19 -8.9946819893846724e-21</pose>
       <link name='cylinder_link'>
         <inertial>
           <inertia>
@@ -314,7 +265,7 @@
       <self_collide>false</self_collide>
     </model>
     <model name='cylinder_4'>
-      <pose>1.7749384308594198 5.9558885306092124 0.49999942579503381 3.030598276859468e-19 -1.8961043124010151e-19 1.3641965135021299e-20</pose>
+      <pose>0.29772499278872055 6.3582601547972359 0.49999999999161265 -3.735320366367721e-09 -2.1958409339906604e-08 0.26556298474874934</pose>
       <link name='cylinder_link'>
         <inertial>
           <inertia>

@@ -12,12 +12,6 @@ import numpy as np
 """*****************************************************************************
 * DEFINES
 *****************************************************************************"""
-FEEDBACK_LINEARIZATION_L = 0.3
-
-ATTRACTIVE_GAIN = 1
-REPULSIVE_GAIN = 1
-REPULSIVE_THRESHOLD = 2.0
-MAX_SPEED = 1.0
 
 
 VELOCITY_TOPIC = "/cmd_vel"
@@ -56,7 +50,24 @@ class PotentialFieldsNode(Node):
         self.create_subscription(LaserScan, SCAN_TOPIC, self.scan_callback, 10)
 
         self.create_timer(0.05, self.control_loop)
-        self.goal = (6.0,0)
+
+        self.declare_parameter("goal_x", 6.0)
+        self.declare_parameter("goal_y", 0.0)
+        self.declare_parameter("attractive_gain", 1.0)
+        self.declare_parameter("repulsive_gain", 1.0)
+        self.declare_parameter("repulsive_threshold", 2.0)
+        self.declare_parameter("feedback_linearization_l", 0.3)
+        self.declare_parameter("max_speed", 1.0)
+
+        self.goal = (
+            self.get_parameter("goal_x").value,
+            self.get_parameter("goal_y").value
+        )
+        self.attractive_gain = self.get_parameter("attractive_gain").value
+        self.repulsive_gain = self.get_parameter("repulsive_gain").value
+        self.repulsive_threshold = self.get_parameter("repulsive_threshold").value
+        self.feedback_linearization_l = self.get_parameter("feedback_linearization_l").value
+        self.max_speed = self.get_parameter("max_speed").value
 
 
     # Callbacks ----------------------------------------------------------------
@@ -104,8 +115,8 @@ class PotentialFieldsNode(Node):
 
         current_magnitude = math.sqrt(total_vx**2 + total_vy**2)
 
-        if current_magnitude > MAX_SPEED:
-            scaling_factor = MAX_SPEED / current_magnitude
+        if current_magnitude > self.max_speed:
+            scaling_factor = self.max_speed / current_magnitude
             total_vx *= scaling_factor
             total_vy *= scaling_factor
 
@@ -132,21 +143,21 @@ class PotentialFieldsNode(Node):
 
     def inverse_fl(self, vx_h, vy_h):
         theta = self.pose.yaw
-        l = FEEDBACK_LINEARIZATION_L
+        l = self.feedback_linearization_l
         v = math.cos(theta) * vx_h + math.sin(theta) * vy_h
         omega = (-math.sin(theta) * vx_h + math.cos(theta) * vy_h) / l
         
         return (v, omega)
 
     def get_attractive_force(self,goal):
-        fx = -ATTRACTIVE_GAIN*(self.pose.x-goal[0])
-        fy = -ATTRACTIVE_GAIN*(self.pose.y-goal[1])
+        fx = -self.attractive_gain*(self.pose.x-goal[0])
+        fy = -self.attractive_gain*(self.pose.y-goal[1])
         return (fx,fy)
 
     def get_repulsive_force_magnitute(self,dist):
-        if dist > REPULSIVE_THRESHOLD:
+        if dist > self.repulsive_threshold:
             return 0
-        return REPULSIVE_GAIN*(1/dist-1/REPULSIVE_THRESHOLD)*1/(dist**2)
+        return self.repulsive_gain*(1/dist-1/self.repulsive_threshold)*1/(dist**2)
 
     def scan_callback(self, msg):
         self.scan = msg

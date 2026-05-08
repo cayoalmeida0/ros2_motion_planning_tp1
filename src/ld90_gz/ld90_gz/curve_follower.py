@@ -14,14 +14,8 @@ from geometry_msgs.msg import Twist, PoseArray
 *****************************************************************************"""
 CONTROLLER_K = 1.0
 
-FEEDBACK_LINEARIZATION_L = 0.1
-CURVE_SIZE_MULTIPLIER = 3.0
-CURVE_TIME_MULTIPLIER = 0.2 
-
 VELOCITY_TOPIC = "/cmd_vel"
 POSE_TOPIC = "/ld90_gt_pose"
-MAX_SPEED = 1.0
-
 
 """*****************************************************************************
 * HELPER CLASSES
@@ -98,6 +92,18 @@ class CurveFollowerNode(Node):
         self.vel_publisher = self.create_publisher(Twist, VELOCITY_TOPIC, 10)
         self.create_timer(0.05, self.control_loop)
 
+        self.declare_parameter('controller_k', 1.0)
+        self.declare_parameter('feedback_linearization_l', 0.1)
+        self.declare_parameter('curve_size_multiplier', 3.0)
+        self.declare_parameter('curve_time_multiplier', 0.2)
+        self.declare_parameter('max_speed', 1.0)
+
+        self.controller_k = self.get_parameter('controller_k').value
+        self.feedback_linearization_l = self.get_parameter('feedback_linearization_l').value
+        self.curve_size_multiplier = self.get_parameter('curve_size_multiplier').value
+        self.curve_time_multiplier = self.get_parameter('curve_time_multiplier').value
+        self.max_speed = self.get_parameter('max_speed').value
+
 
     # Callbacks ----------------------------------------------------------------
     def pose_callback(self, msg):
@@ -111,8 +117,8 @@ class CurveFollowerNode(Node):
         now_time = self.get_clock().now()
         vx_total,vy_total = self.get_correction_fl_point_speed(now_time)
         current_magnitude = math.sqrt(vx_total**2 + vy_total**2)
-        if current_magnitude > MAX_SPEED:
-            scaling_factor = MAX_SPEED / current_magnitude
+        if current_magnitude > self.max_speed:
+            scaling_factor = self.max_speed / current_magnitude
             vx_total *= scaling_factor
             vy_total *= scaling_factor
 
@@ -127,7 +133,7 @@ class CurveFollowerNode(Node):
 
     def inverse_fl(self, vx_h, vy_h):
         theta = self.pose.yaw
-        l = FEEDBACK_LINEARIZATION_L
+        l = self.feedback_linearization_l
         v = math.cos(theta) * vx_h + math.sin(theta) * vy_h
         omega = (-math.sin(theta) * vx_h + math.cos(theta) * vy_h) / l
         
@@ -137,7 +143,7 @@ class CurveFollowerNode(Node):
     def get_correction_fl_point_speed(self,time:Time):
         desired_speed = self.get_curve_velocity_at_time(time)
         position_error = self.get_position_error(time)
-        return tuple(a - CONTROLLER_K* b for a, b in zip(desired_speed, position_error))
+        return tuple(a - self.controller_k * b for a, b in zip(desired_speed, position_error))
 
     def get_position_error(self,time:Time):
         desired_point = self.get_curve_point_at_time(time)
@@ -154,39 +160,39 @@ class CurveFollowerNode(Node):
         return (vx_error,vy_error)
 
     def get_feedback_linearization_point_position(self):
-        x = self.pose.x + FEEDBACK_LINEARIZATION_L*math.cos(self.pose.yaw)
-        y = self.pose.y + FEEDBACK_LINEARIZATION_L*math.sin(self.pose.yaw)
+        x = self.pose.x + self.feedback_linearization_l * math.cos(self.pose.yaw)
+        y = self.pose.y + self.feedback_linearization_l * math.sin(self.pose.yaw)
         return (x,y)
     
     def get_feedback_linearization_point_speed(self):
         center_vx, center_vy = self.speed_trk.get_point_speed()
-        vx = center_vx - FEEDBACK_LINEARIZATION_L * math.sin(self.pose.yaw) * self.speed_trk.get_yaw_speed()
-        vy = center_vy + FEEDBACK_LINEARIZATION_L * math.cos(self.pose.yaw) * self.speed_trk.get_yaw_speed()
+        vx = center_vx - self.feedback_linearization_l * math.sin(self.pose.yaw) * self.speed_trk.get_yaw_speed()
+        vy = center_vy + self.feedback_linearization_l * math.cos(self.pose.yaw) * self.speed_trk.get_yaw_speed()
         return (vx,vy)
 
 
     def get_curve_point_at_time(self,time:Time):
         
-        theta = time.nanoseconds/1e9 *CURVE_TIME_MULTIPLIER
+        theta = time.nanoseconds/1e9 * self.curve_time_multiplier
         sin_t = math.sin(theta)
         cos_t = math.cos(theta)
         denom = 1 + sin_t**2
 
-        x = (CURVE_SIZE_MULTIPLIER * cos_t)/denom
-        y = (CURVE_SIZE_MULTIPLIER * sin_t * cos_t)/denom
+        x = (self.curve_size_multiplier * cos_t)/denom
+        y = (self.curve_size_multiplier * sin_t * cos_t)/denom
         return (x,y)
 
     def get_curve_velocity_at_time(self, time:Time):
         
-        theta = time.nanoseconds/1e9 * CURVE_TIME_MULTIPLIER
+        theta = time.nanoseconds/1e9 * self.curve_time_multiplier
         sin_t = math.sin(theta)
         denom = 1 + sin_t**2
-        d_theta = CURVE_TIME_MULTIPLIER
+        d_theta = self.curve_time_multiplier
         
-        dx_dtheta = CURVE_SIZE_MULTIPLIER * (sin_t * (sin_t**2 - 3)) / (denom**2)
+        dx_dtheta = self.curve_size_multiplier * (sin_t * (sin_t**2 - 3)) / (denom**2)
         vx = dx_dtheta * d_theta
         
-        dy_dtheta = CURVE_SIZE_MULTIPLIER * (1 - 3 * sin_t**2) / (denom**2)
+        dy_dtheta = self.curve_size_multiplier * (1 - 3 * sin_t**2) / (denom**2)
         vy = dy_dtheta * d_theta
         return (vx, vy)
 
